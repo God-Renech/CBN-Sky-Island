@@ -372,6 +372,91 @@ local function apply_landing_protection(storage)
   end
 end
 
+-- Save friendly animals currently on the island before departing
+-- Scans visible creatures and stores friendly monsters in storage.island_animals
+local function save_island_animals(storage)
+  local player = gapi.get_avatar()
+  if not player then return end
+
+  storage.island_animals = {}
+
+  -- Use get_visible_creatures to find all creatures in range
+  local creatures = player:get_visible_creatures(60)
+  local saved_count = 0
+
+  for _, creature in ipairs(creatures) do
+    if creature:is_monster() then
+      local monster = creature:as_monster()
+      if monster and monster.friendly > 0 then
+        local type_id = monster:get_type():str()
+        local hp = monster:get_hp()
+        local name = monster:get_name()
+
+        table.insert(storage.island_animals, {
+          type_id = type_id,
+          hp = hp,
+          name = name
+        })
+        saved_count = saved_count + 1
+        util.debug_log(string.format("Saved island animal: %s (HP: %d)", type_id, hp))
+      end
+    end
+  end
+
+  if saved_count > 0 then
+    util.debug_log(string.format("Total island animals saved: %d", saved_count))
+  end
+end
+
+-- Restore friendly animals that were on the island before departure
+-- Uses delayed spawn (same pattern as spawn_warped_animals)
+local function restore_island_animals(storage)
+  if not storage.island_animals or #storage.island_animals == 0 then
+    return 0
+  end
+
+  -- Copy the list and clear storage immediately
+  local animals_to_restore = {}
+  for _, animal in ipairs(storage.island_animals) do
+    table.insert(animals_to_restore, animal)
+  end
+  storage.island_animals = {}
+
+  util.debug_log(string.format("Queuing %d island animals for delayed restore", #animals_to_restore))
+
+  -- Delay spawn by 2 seconds to let map fully load after teleport
+  gapi.add_on_every_x_hook(TimeDuration.from_seconds(2), function()
+    local player = gapi.get_avatar()
+    if not player then return false end
+
+    local player_pos = player:get_pos_ms()
+    local restored_count = 0
+
+    for _, animal_data in ipairs(animals_to_restore) do
+      local mtype_id = MonsterTypeId.new(animal_data.type_id)
+      local spawned_monster = gapi.place_monster_around(mtype_id, player_pos, 5)
+
+      if spawned_monster then
+        spawned_monster:set_hp(animal_data.hp)
+        spawned_monster:make_friendly()
+        restored_count = restored_count + 1
+        util.debug_log(string.format("Restored island animal: %s with HP %d", animal_data.type_id, animal_data.hp))
+      else
+        util.debug_log(string.format("FAILED to restore island animal: %s", animal_data.type_id))
+      end
+    end
+
+    if restored_count > 0 then
+      gapi.add_msg(string.format(locale.gettext("%d island animal%s returned home safely!"),
+        restored_count, restored_count > 1 and "s" or ""))
+    end
+
+    return false  -- One-shot: stop after first execution
+  end)
+
+  return #animals_to_restore
+end
+
 -- Spawn warped animals at home location
 -- Called when player successfully returns home
 -- Note: Uses delayed spawn to ensure map is fully loaded after teleport
@@ -677,6 +762,9 @@ function teleport.use_warp_obelisk(who, item, pos, storage, missions, warp_sickn
     gapi.add_msg(string.format(locale.gettext("Your scouting reveals a %dx%d area around the landing zone."), area_size, area_size))
   end
 
+  -- Save island animals before leaving
+  save_island_animals(storage)
+
   -- Set away status
   storage.is_away_from_home = true
   storage.warp_pulse_count = 0
@@ -801,6 +889,9 @@ function teleport.use_return_obelisk(who, item, pos, storage, missions, warp_sic
     -- Spawn any warped animals
     teleport.spawn_warped_animals(storage)
 
+    -- Restore island animals that were saved before departure
+    restore_island_animals(storage)
+
     -- Check for progress gate rank-ups (automatic at 10 and 20 wins)
     if old_raids_won < 10 and storage.raids_won >= 10 then
       gapi.add_msg(locale.gettext("=== RANK UP ==="))
@@ -869,6 +960,9 @@ function teleport.return_home_success(storage, missions, warp_sickness)
 
   -- Spawn any warped animals
   teleport.spawn_warped_animals(storage)
+
+  -- Restore island animals that were saved before departure
+  restore_island_animals(storage)
 
   -- Check for progress gate rank-ups (automatic at 10 and 20 wins)
   if old_raids_won < 10 and storage.raids_won >= 10 then
