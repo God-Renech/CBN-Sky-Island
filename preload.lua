@@ -106,6 +106,14 @@ game.iuse_functions["SKYISLAND_UPGRADE_LANDING_FLIGHT"] = {
   use = function(params) return mod.use_upgrade_landing_flight(params.user, params.item, params.pos) end
 }
 
+game.iuse_functions["SKYISLAND_PROOF_DETERMINATION"] = function(...)
+  return mod.use_proof_determination(...)
+end
+
+game.iuse_functions["SKYISLAND_PROOF_MASTERY"] = function(...)
+  return mod.use_proof_mastery(...)
+end
+
 -- Utility item activations
 game.iuse_functions["SKYISLAND_QUICKHEAL"] = {
   use = function(params) return mod.use_quickheal(params.user, params.item, params.pos) end

@@ -16,6 +16,16 @@
   },
   {
     "type": "item_action",
+    "id": "SKYISLAND_PROOF_DETERMINATION",
+    "name": { "str": "Activate Proof of Determination" }
+  },
+  {
+    "type": "item_action",
+    "id": "SKYISLAND_PROOF_MASTERY",
+    "name": { "str": "Activate Proof of Mastery" }
+  },
+  {
+    "type": "item_action",
     "id": "SKYISLAND_UPGRADE_STABILITY1",
     "name": { "str": "Unlock Stability I" }
   },
