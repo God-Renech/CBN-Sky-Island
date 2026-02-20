@@ -701,7 +701,7 @@
     "initial_charges": 1,
     "charges_per_use": 1,
     "use_action": "SKYISLAND_UPGRADE_BONUSMISSIONS1",
-    "flags": []
+    "flags": [ "DESTROY_ON_DECHARGE" ]
   },
   {
     "id": "skyisland_upgradekey_bonusmissions2",
@@ -717,7 +717,7 @@
     "initial_charges": 1,
     "charges_per_use": 1,
     "use_action": "SKYISLAND_UPGRADE_BONUSMISSIONS2",
-    "flags": []
+    "flags": [ "DESTROY_ON_DECHARGE" ]
   },
   {
     "id": "skyisland_upgradekey_bonusmissions3",
@@ -733,7 +733,7 @@
     "initial_charges": 1,
     "charges_per_use": 1,
     "use_action": "SKYISLAND_UPGRADE_BONUSMISSIONS3",
-    "flags": []
+    "flags": [ "DESTROY_ON_DECHARGE" ]
   },
   {
     "id": "skyisland_upgradekey_bonusmissions4",
@@ -749,7 +749,7 @@
     "initial_charges": 1,
     "charges_per_use": 1,
     "use_action": "SKYISLAND_UPGRADE_BONUSMISSIONS4",
-    "flags": []
+    "flags": [ "DESTROY_ON_DECHARGE" ]
   },
   {
     "id": "skyisland_upgradekey_bonusmissions5",
