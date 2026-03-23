@@ -187,6 +187,10 @@ local LOCATION_CONFIG = {
   }
 }
 
+local DESTINATION_SEARCH_ATTEMPTS = 8
+local DESTINATION_SEARCH_SAMPLE_LIMIT = 64
+local DESTINATION_FALLBACK_SAMPLE_LIMIT = 192
+
 -- Helper: Get player position in OMT coordinates
 local function get_player_omt()
   local player = gapi.get_avatar()
@@ -207,6 +211,114 @@ local function roof_filter(game_map, pos)
   local has_roof = ter_data:has_flag("ROOF")
   -- util.debug_log(string.format("roof_filter: has_roof=%s", tostring(has_roof)))
   return has_roof
+end
+
+local function add_location_search_types(params, selected_location, loc_config)
+  params:add_type(loc_config.terrain_type, loc_config.match_type)
+
+  if selected_location == "field" then
+    params:add_type("forest", OtMatchType.EXACT)
+    params:add_type("forest_thick", OtMatchType.EXACT)
+  end
+end
+
+local function build_location_search_params(selected_location, loc_config, min_distance, max_distance)
+  local params = OmtFindParams.new()
+  add_location_search_types(params, selected_location, loc_config)
+  params:set_search_range(min_distance, max_distance)
+  params:set_search_layers(loc_config.z_level, loc_config.z_level)
+  return params
+end
+
+local function find_raid_destination(search_origin, selected_location, loc_config, config)
+  local search_span = math.max(0, config.max_distance - config.min_distance)
+  local band_width = math.max(40, math.min(160, math.floor(search_span / 4)))
+  local max_band_start = math.max(config.min_distance, config.max_distance - band_width)
+
+  for attempt = 1, DESTINATION_SEARCH_ATTEMPTS do
+    local band_min = config.min_distance
+    if max_band_start > config.min_distance then
+      band_min = gapi.rng(config.min_distance, max_band_start)
+    end
+    local band_max = math.min(config.max_distance, band_min + band_width)
+
+    local params = build_location_search_params(
+      selected_location,
+      loc_config,
+      band_min,
+      band_max
+    )
+    params.max_results = DESTINATION_SEARCH_SAMPLE_LIMIT
+
+    local dest_omt = overmapbuffer.find_random(search_origin, params)
+    if dest_omt then
+      util.debug_log(string.format(
+        "Found raid location on attempt %d in band %d-%d: (%d, %d, %d)",
+        attempt,
+        band_min,
+        band_max,
+        dest_omt.x,
+        dest_omt.y,
+        dest_omt.z
+      ))
+      return dest_omt
+    end
+  end
+
+  local fallback_params = build_location_search_params(
+    selected_location,
+    loc_config,
+    config.min_distance,
+    config.max_distance
+  )
+  fallback_params.max_results = DESTINATION_FALLBACK_SAMPLE_LIMIT
+
+  local fallback_dest = overmapbuffer.find_random(search_origin, fallback_params)
+  if fallback_dest then
+    util.debug_log(string.format(
+      "Fallback raid search found location at (%d, %d, %d)",
+      fallback_dest.x,
+      fallback_dest.y,
+      fallback_dest.z
+    ))
+    return fallback_dest
+  end
+
+  local closest_params = build_location_search_params(
+    selected_location,
+    loc_config,
+    config.min_distance,
+    config.max_distance
+  )
+  local closest_dest = overmapbuffer.find_closest(search_origin, closest_params)
+  if closest_dest then
+    util.debug_log(string.format(
+      "Closest-match raid search found location at (%d, %d, %d)",
+      closest_dest.x,
+      closest_dest.y,
+      closest_dest.z
+    ))
+    return closest_dest
+  end
+
+  local wide_params = build_location_search_params(
+    selected_location,
+    loc_config,
+    10,
+    2000
+  )
+  local wide_dest = overmapbuffer.find_closest(search_origin, wide_params)
+  if wide_dest then
+    util.debug_log(string.format(
+      "Wide closest-match raid search found location at (%d, %d, %d)",
+      wide_dest.x,
+      wide_dest.y,
+      wide_dest.z
+    ))
+    return wide_dest
+  end
+
+  return nil
 end
 
 -- Helper: Check if a position is safe to spawn
@@ -666,21 +778,6 @@ function teleport.use_warp_obelisk(who, item, pos, storage, missions, warp_sickn
   gapi.add_msg(string.format(locale.gettext("Initiating %s to %s..."), config.name, loc_config.name))
   gapi.add_msg(locale.gettext("Searching for suitable location..."))
 
-  -- Build search parameters based on location type
-  local params = OmtFindParams.new()
-  params:add_type(loc_config.terrain_type, loc_config.match_type)
-
-  -- For field, also add forest as fallback options
-  if selected_location == "field" then
-    params:add_type("forest", OtMatchType.EXACT)
-    params:add_type("forest_thick", OtMatchType.EXACT)
-  end
-
-  -- Set search range
-  params:set_search_range(config.min_distance, config.max_distance)
-  -- Search at the appropriate z-level
-  params:set_search_layers(loc_config.z_level, loc_config.z_level)
-
   -- Use ground-level origin for searching (sky islands are at z > 0)
   local search_origin = Tripoint.new(home_omt.x, home_omt.y, loc_config.z_level)
 
@@ -688,45 +785,19 @@ function teleport.use_warp_obelisk(who, item, pos, storage, missions, warp_sickn
     loc_config.terrain_type, config.min_distance, config.max_distance, loc_config.z_level,
     search_origin.x, search_origin.y, search_origin.z))
 
-  -- Debug: Try find_all to see how many results we get
-  -- local all_results = overmapbuffer.find_all(search_origin, params)
-  -- util.debug_log(string.format("find_all returned %d results", #all_results))
-
-  -- Find a random location matching parameters
-  local dest_omt = overmapbuffer.find_random(search_origin, params)
+  local dest_omt = find_raid_destination(search_origin, selected_location, loc_config, config)
 
   if dest_omt then
     util.debug_log(string.format("Found raid location at (%d, %d, %d)", dest_omt.x, dest_omt.y, dest_omt.z))
     util.debug_log(string.format("Found %s at z=%d (searched z=%d)", loc_config.terrain_type, dest_omt.z, loc_config.z_level))
   else
-    -- Fallback: widen the search range significantly
-    util.debug_log("Primary search failed, trying wider range...")
-    local fallback_params = OmtFindParams.new()
-    fallback_params:add_type(loc_config.terrain_type, loc_config.match_type)
-    if selected_location == "field" then
-      fallback_params:add_type("forest", OtMatchType.EXACT)
+    gapi.add_msg("WARNING: Could not find suitable terrain. Aborting warp.")
+    util.debug_log("ERROR: All terrain searches failed!")
+    if loc_config.catalyst_item then
+      who:add_item_with_id(ItypeId.new(loc_config.catalyst_item), 1)
+      gapi.add_msg("Your Labs Catalyst is returned.")
     end
-    fallback_params:set_search_range(10, 2000)  -- Much wider range
-    fallback_params:set_search_layers(loc_config.z_level, loc_config.z_level)
-
-    local fallback_results = overmapbuffer.find_all(search_origin, fallback_params)
-    util.debug_log(string.format("Fallback find_all returned %d results", #fallback_results))
-
-    dest_omt = overmapbuffer.find_random(search_origin, fallback_params)
-
-    if dest_omt then
-      util.debug_log(string.format("Fallback found terrain at (%d, %d, %d)", dest_omt.x, dest_omt.y, dest_omt.z))
-    else
-      -- Absolute last resort - this shouldn't happen but just in case
-      gapi.add_msg("WARNING: Could not find suitable terrain. Aborting warp.")
-      util.debug_log("ERROR: All terrain searches failed!")
-      -- Refund catalyst if we consumed one
-      if loc_config.catalyst_item then
-        who:add_item_with_id(ItypeId.new(loc_config.catalyst_item), 1)
-        gapi.add_msg("Your Labs Catalyst is returned.")
-      end
-      return 0
-    end
+    return 0
   end
 
   -- Two-stage teleport to prevent map revelation from z=10
