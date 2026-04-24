@@ -11,7 +11,7 @@
     "origins": [],
     "end": {
       "effect": [
-        { "mapgen_update": "mx_skyisland_base1", "z": 9 }
+        { "mapgen_update": "mx_skyisland_base1", "z": 7 }
       ]
     }
   },
@@ -27,7 +27,7 @@
     "origins": [],
     "end": {
       "effect": [
-        { "mapgen_update": "mx_skyisland_a1", "z": 9 }
+        { "mapgen_update": "mx_skyisland_a1", "z": 7 }
       ]
     }
   },
@@ -43,7 +43,7 @@
     "origins": [],
     "end": {
       "effect": [
-        { "mapgen_update": "mx_skyisland_a2", "z": 9 }
+        { "mapgen_update": "mx_skyisland_a2", "z": 7 }
       ]
     }
   },
@@ -59,7 +59,7 @@
     "origins": [],
     "end": {
       "effect": [
-        { "mapgen_update": "mx_skyisland_a3", "z": 9 }
+        { "mapgen_update": "mx_skyisland_a3", "z": 7 }
       ]
     }
   },
@@ -75,7 +75,7 @@
     "origins": [],
     "end": {
       "effect": [
-        { "mapgen_update": "mx_skyisland_a4", "z": 9 }
+        { "mapgen_update": "mx_skyisland_a4", "z": 7 }
       ]
     }
   }
