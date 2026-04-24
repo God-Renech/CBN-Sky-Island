@@ -499,8 +499,8 @@ end
 -- These are based on the sky_island_core mapgen layout and avoid
 -- using mapgen updates on the surface (which can fail with vehicles)
 local ISLAND_COORDS = {
-  stairs_down = { x = 60, y = 69, z = 10 },
-  skylight = { x = 60, y = 56, z = 10 }
+  stairs_down = { x = 60, y = 69, z = 8 },
+  skylight = { x = 60, y = 56, z = 8 }
 }
 
 local function to_tripoint(coord)
