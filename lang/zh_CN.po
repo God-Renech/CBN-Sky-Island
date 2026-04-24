@@ -1,0 +1,3575 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: CBN_Sky_Island\n"
+"POT-Creation-Date: 2026-03-17 15:22+0800\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\construction_missions.json
+msgid "Sky Island Basement Construction"
+msgstr "天空岛地下室建造"
+
+#. ~ Description for mission 'Sky Island Basement Construction'
+#: .\construction_missions.json
+msgid "Construct a basement level on your sky island."
+msgstr "在你的天空岛上建造一层地下室。"
+
+#: .\construction_missions.json
+msgid "Sky Island Expansion 1"
+msgstr "天空岛扩建 1"
+
+#. ~ Description for mission 'Sky Island Expansion 1'
+#: .\construction_missions.json
+msgid ""
+"Expand your basement with cross-shaped corridors and a central room with "
+"skylight."
+msgstr "以十字形走廊和带天窗的中心房间扩建你的地下室。"
+
+#: .\construction_missions.json
+msgid "Sky Island Expansion 2"
+msgstr "天空岛扩建 2"
+
+#. ~ Description for mission 'Sky Island Expansion 2'
+#: .\construction_missions.json
+msgid "Further expand your basement corridors."
+msgstr "进一步扩建你的地下室走廊。"
+
+#: .\construction_missions.json
+msgid "Sky Island Expansion 3"
+msgstr "天空岛扩建 3"
+
+#. ~ Description for mission 'Sky Island Expansion 3'
+#: .\construction_missions.json
+msgid "Expand your basement with a larger central room."
+msgstr "以更大的中心房间扩建你的地下室。"
+
+#: .\construction_missions.json
+msgid "Sky Island Expansion 4"
+msgstr "天空岛扩建 4"
+
+#. ~ Description for mission 'Sky Island Expansion 4'
+#: .\construction_missions.json
+msgid "Complete your basement expansion with maximum size."
+msgstr "以最大尺寸完成你的地下室扩建。"
+
+#: .\constructions.json
+msgid "Warp floor into wood floor"
+msgstr "扭曲地板为木地板"
+
+#: .\constructions.json
+msgid "Warp floor into worked stone floor"
+msgstr "扭曲地板为加工石地板"
+
+#: .\constructions.json
+msgid "Warp floor into fine sand"
+msgstr "扭曲地板为细沙"
+
+#: .\constructions.json
+msgid "Warp: Build Autodoc (copyplate)"
+msgstr "扭曲：建造自动医疗机（复制板）"
+
+#: .\constructions.json
+msgid "Warp: Build Autodoc Couch (copyplate)"
+msgstr "扭曲：建造自动医疗机躺椅（复制板）"
+
+#: .\constructions.json
+msgid "Warp: Build Nanofabricator Body (copyplate)"
+msgstr "扭曲：建造纳米制造机主体（复制板）"
+
+#: .\constructions.json
+msgid "Warp: Build Nanofabricator Control Panel (copyplate)"
+msgstr "扭曲：建造纳米制造机控制面板（复制板）"
+
+#: .\constructions.json
+msgid "Warp: Build CVD Machine Body (copyplate)"
+msgstr "扭曲：建造CVD机器主体（复制板）"
+
+#: .\constructions.json
+msgid "Warp: Build CVD Control Panel (copyplate)"
+msgstr "扭曲：建造CVD控制面板（复制板）"
+
+#: .\effects.json
+msgid "Resurrection Sickness"
+msgstr "复活虚弱"
+
+#. ~ Description of effect 'Resurrection Sickness'.
+#: .\effects.json
+msgid ""
+"Your body is recovering from death. Your limbs are being forcibly stabilized"
+" by mysterious energies."
+msgstr "你的身体正从死亡中恢复。神秘的力场正强行稳定你的四肢。"
+
+#. ~ Miss message for effect(s) 'Resurrection Sickness'.
+#: .\effects.json
+msgid "You feel your body forcibly reconstructing itself!"
+msgstr "你感到身体正被强行重构！"
+
+#. ~ Decay message for effect(s) 'Resurrection Sickness'.
+#: .\effects.json
+msgid "Your body has stabilized."
+msgstr "你的身体已稳定下来。"
+
+#: .\effects.json
+msgid "Warp Stability"
+msgstr "跃迁稳定"
+
+#. ~ Description of effect 'Warp Stability'.
+#: .\effects.json
+msgid ""
+"You're fresh from your stay at your sanctuary island.  The intangible miasma"
+" of terra firma currently has no effect on you, and you feel fine.  This "
+"should last for several hours.  Stay too long, however, and you'll gradually"
+" begin to suffer ever-worsening debilitating effects."
+msgstr "你刚从庇护岛屿归来。大地无形的瘴气目前对你毫无影响，你感觉良好。这种状态将持续数小时。但若停留过久，你将逐渐遭受日益严重的衰弱效应。"
+
+#: .\effects.json
+msgid "Warp Sickness"
+msgstr "跃迁不适"
+
+#. ~ Description of effect 'Warp Sickness'.
+#: .\effects.json
+msgid ""
+"You've overstayed your time earthside.  It's getting hard to concentrate, "
+"there's a painful ringing in your ears, and your muscles sting and jolt.  "
+"Every action feels delayed.  You need to warp home to refresh yourself, or "
+"this is going to get worse.  Probably within just a few hours."
+msgstr ""
+"你在地面停留过久。注意力难以集中，耳中嗡鸣作痛，肌肉刺痛抽搐。每个动作都感觉延迟。你需要跃迁回家恢复状态，否则情况会恶化——可能就在几小时内。"
+
+#: .\effects.json
+msgid "Warp Nausea"
+msgstr "跃迁眩晕"
+
+#. ~ Description of effect 'Warp Nausea'.
+#: .\effects.json
+msgid ""
+"You've stayed earthside too long.  Your body aches and your senses are "
+"dulling.  Every step feels like you're walking through thick mud and "
+"breathing hot tar.  You should warp home as soon as you can, or this is only"
+" going to get worse."
+msgstr "你在地面停留太久。身体疼痛，感官迟钝。每一步都像在泥沼中跋涉，呼吸如同吞咽热沥青。你应尽快跃迁回家，否则只会更糟。"
+
+#: .\effects.json
+msgid "Warp Debilitation"
+msgstr "跃迁衰竭"
+
+#. ~ Description of effect 'Warp Debilitation'.
+#: .\effects.json
+msgid ""
+"You've stayed earthside WAY too long!  Your body barely responds and your "
+"senses are slush.  The world itself feels barbed and frayed, and the very "
+"air is like breathing fiberglass.  If you want to survive, you need to warp "
+"home as soon as possible."
+msgstr ""
+"你在地面停留得实在太久了！身体几乎无法响应，感官混沌不清。世界本身仿佛布满倒刺且支离破碎，连空气都像在吸入玻璃纤维。若想活命，必须尽快跃迁回家。"
+
+#: .\effects.json
+msgid "Warp Necrosis"
+msgstr "跃迁坏死"
+
+#. ~ Description of effect 'Warp Necrosis'.
+#: .\effects.json
+msgid ""
+"The very fabric of your being is unraveling!  You're in dire straits.  You "
+"need to get back to your sanctuary island NOW!"
+msgstr "你的存在本质正在瓦解！你已陷入绝境。必须立刻返回庇护岛屿！"
+
+#: .\effects.json
+msgid "Warp Disintegration!"
+msgstr "跃迁崩解！"
+
+#. ~ Description of effect 'Warp Disintegration!'.
+#: .\effects.json
+msgid ""
+"You're going to die.  And if you weren't busy leaking blood out of every "
+"pore, you'd find a better way to emphasize just how badly you're dying.  "
+"Your only hope is to return home immediately."
+msgstr "你即将死亡。若不是每个毛孔都在渗血，你本可以找到更贴切的形容来强调濒死之剧痛。唯一的希望是立即回家。"
+
+#: .\effects.json
+msgid "Disintegrating!"
+msgstr "正在崩解！"
+
+#. ~ Description of effect 'Disintegrating!'.
+#: .\effects.json
+msgid "Prolonged warp is destroying you.  You're coming apart."
+msgstr "持续的跃迁正在摧毁你。你正在分崩离析。"
+
+#. ~ Apply message for effect(s) 'Disintegrating!'.
+#: .\effects.json
+msgid "You're being unmade!"
+msgstr "你正在被抹除！"
+
+#. ~ Remove message for effect(s) 'Disintegrating!'.
+#: .\effects.json
+msgid ""
+"The rending of the warp has finally abated.  You feel like you exist again."
+msgstr "跃迁的撕裂感终于消退。你感觉自己重新存在了。"
+
+#: .\effects.json
+msgid "Warp Cloak"
+msgstr "跃迁斗篷"
+
+#. ~ Description of effect 'Warp Cloak'.
+#: .\effects.json
+msgid ""
+"You are invisible and incorporeal for a brief time. Now's your chance to get"
+" to cover. You also won't take fall damage."
+msgstr "你暂时变得隐形且无实体。这是寻找掩护的好机会。同时你不会受到坠落伤害。"
+
+#. ~ Apply message for effect(s) 'Warp Cloak'.
+#: .\effects.json
+msgid "Warp energy envelops you!"
+msgstr "跃迁能量包裹了你！"
+
+#. ~ Remove message for effect(s) 'Warp Cloak'.
+#: .\effects.json
+msgid "You fully materialize. You're not invisible anymore!"
+msgstr "你完全实体化，不再隐形！"
+
+#. ~ Decay message for effect(s) 'Warp Cloak'.
+#: .\effects.json
+msgid "Your warpcloak is about to fade away."
+msgstr "你的跃迁斗篷即将消散。"
+
+#: .\effects.json
+msgid "Warped Omniscience"
+msgstr "扭曲全知"
+
+#. ~ Description of effect 'Warped Omniscience'.
+#: .\effects.json
+msgid "Nothing escapes your sight."
+msgstr "万物皆逃不过你的视线。"
+
+#. ~ Apply message for effect(s) 'Warped Omniscience'.
+#: .\effects.json
+msgid "Your vision expands until you see everything."
+msgstr "你的视野不断扩展，直至洞察一切。"
+
+#. ~ Remove message for effect(s) 'Warped Omniscience'.
+#: .\effects.json
+msgid "Your sight returns to normal."
+msgstr "你的视力恢复正常。"
+
+#: .\furniture.json .\items.json
+msgid "warp obelisk"
+msgid_plural "warp obelisks"
+msgstr[0] "跃迁方尖碑"
+
+#. ~ Description for warp obelisk
+#: .\furniture.json
+msgid ""
+"A mysterious floating obelisk that pulses with otherworldly energy. You "
+"could examine it to initiate a warp expedition."
+msgstr "一座散发着异界能量的神秘浮空方尖碑。你可以检查它以开启跃迁远征。"
+
+#: .\furniture.json .\items.json
+msgid "return obelisk"
+msgid_plural "return obelisks"
+msgstr[0] "回归方尖碑"
+
+#. ~ Description for return obelisk
+#: .\furniture.json
+msgid ""
+"A mysterious obelisk that can teleport you back home. Examine it to return "
+"to the Sky Island."
+msgstr "一座能将你传送回家的神秘方尖碑。检查它即可返回天空之岛。"
+
+#: .\furniture.json
+msgid "infinity tree"
+msgstr "无限之树"
+
+#. ~ Description for infinity tree
+#: .\furniture.json
+msgid ""
+"Purple-blue shimmers sparkle around the leaves of this small sapling. New growth seems to spring up in seconds, as if in a timelapse, and yet there never seem to be too many branches. It's always in equilibrium. Its strange nature allows you to push it around like furniture.\n"
+"\n"
+"The power of this tree allows you to produce raw wooden items from material tokens via the crafting menu. Just one of these could last forever."
+msgstr ""
+"这株小树苗的叶片周围闪烁着紫蓝色的微光。新枝桠仿佛在快进中瞬间萌发，却从未显得过于茂密——它始终保持着精妙的平衡。其奇异特性让你能像移动家具般推动它。\n"
+"\n"
+"通过制作菜单，此树的力量可让你用材料代币生产原始木制品。仅此一株便足以永恒供应。"
+
+#: .\furniture.json
+msgid "infinity stone"
+msgstr "无限之石"
+
+#. ~ Description for infinity stone
+#: .\furniture.json
+msgid ""
+"Wisps of iridescent energy spark around this immense stone like miniature fireworks, leaving behind satisfying showers of pebbles. Clay and soil shift around its base, erupting in slow motion yet never overflowing.\n"
+"\n"
+"The power of this stone allows you to produce rocks and natural earthen items from material tokens via the crafting menu. Just one of these could last forever."
+msgstr ""
+"虹彩能量如微型烟花在这块巨岩表面迸溅，洒下令人满足的碎石雨。黏土与土壤在其基座周围缓慢翻涌，如同慢镜头下的喷发，却永不会溢散。\n"
+"\n"
+"通过制作菜单，此石的力量可让你用材料代币生产岩石与天然土制品。仅此一块便足以永恒供应。"
+
+#: .\furniture.json
+msgid "infinity ore"
+msgstr "无限矿脉"
+
+#. ~ Description for infinity ore
+#: .\furniture.json
+msgid ""
+"A roiling, rattling mass of ever-churning metal. Flares of purple energy arc around the formless pile like electricity, and in their wake, thin metal rods and struts jut out before disappearing into the half-molten heap which never seems to grow or diminish. Its strange nature allows you to shift it around like furniture.\n"
+"\n"
+"The power of this ore allows you to produce raw and basic metal items from material tokens via the crafting menu. Just one of these could last forever."
+msgstr ""
+"一团永不停歇翻腾躁动的金属聚合体。紫色能量如电弧在这无形堆垛间跃动，所过之处刺出细金属杆与支柱，又消融于半熔态的矿堆——它既不会增长亦不会消减。其奇异特性让你能像移动家具般推移它。\n"
+"\n"
+"通过制作菜单，此矿脉的力量可让你用材料代币生产原始与基础金属制品。仅此一团便足以永恒供应。"
+
+#: .\furniture.json .\heart.lua .\items.json
+msgid "Heart of the Island"
+msgid_plural "Heart of the Islands"
+msgstr[0] "岛屿之心"
+
+#. ~ Description for Heart of the Island
+#: .\furniture.json
+msgid ""
+"A swirling, surreal statue of organic shapes carved from dark stone. In your head, a voice speaks faintly. Despite its massive size, it's surprisingly easy to move around the island.\n"
+"\n"
+"You can examine it to access services and upgrades."
+msgstr ""
+"一座由暗色岩石雕琢而成、充满有机形态的旋涡状超现实雕像。你脑海中隐约回响着低语。尽管体积庞大，它却能轻易在岛上移动。\n"
+"\n"
+"检查它可获取服务与升级选项。"
+
+#: .\heart.lua
+msgid "Novice"
+msgstr "新手"
+
+#: .\heart.lua
+msgid "Adept"
+msgstr "熟练"
+
+#: .\heart.lua
+msgid "Master"
+msgstr "大师"
+
+#: .\heart.lua
+msgid "Casual"
+msgstr "休闲"
+
+#: .\heart.lua
+msgid ""
+"Warp pulses every 30 minutes.\n"
+"Warp sickness after 4 hours, disintegration after 6 hours.\n"
+"More relaxed time limits for activities and reaching the exit."
+msgstr ""
+"每30分钟发生一次扭曲脉冲。\n"
+"4小时后出现扭曲病，6小时后解体。\n"
+"活动和抵达出口的时间限制更宽松。"
+
+#: .\heart.lua
+msgid "Normal"
+msgstr "普通"
+
+#: .\heart.lua
+msgid ""
+"Warp pulses every 15 minutes.\n"
+"Warp sickness after 2 hours, disintegration after 3 hours.\n"
+"The intended way to play."
+msgstr ""
+"每15分钟发生一次扭曲脉冲。\n"
+"2小时后出现扭曲病，3小时后解体。\n"
+"这是推荐的游玩方式。"
+
+#: .\heart.lua
+msgid "Hard"
+msgstr "困难"
+
+#: .\heart.lua
+msgid ""
+"Warp pulses every 10 minutes.\n"
+"Warp sickness after 1 hour 20 minutes, disintegration after 2 hours.\n"
+"Strict time limits, must prioritize the exit."
+msgstr ""
+"每10分钟发生一次扭曲脉冲。\n"
+"1小时20分钟后出现扭曲病，2小时后解体。\n"
+"时间限制严格，必须优先考虑出口。"
+
+#: .\heart.lua
+msgid "Impossible"
+msgstr "不可能"
+
+#: .\heart.lua
+msgid ""
+"Warp pulses every 5 minutes.\n"
+"Warp sickness after 40 minutes, disintegration after 1 hour.\n"
+"Extremely tight time limits, no mercy."
+msgstr ""
+"每5分钟发生一次扭曲脉冲。\n"
+"40分钟后出现扭曲病，1小时后解体。\n"
+"时间限制极其紧张，毫不留情。"
+
+#: .\heart.lua
+msgid "Whole Room"
+msgstr "整个房间"
+
+#: .\heart.lua
+msgid ""
+"Everything in the extraction room returns with you.\n"
+"Resources are generally not a problem if you reach extraction."
+msgstr ""
+"撤离房间内的所有物品都会随你返回。\n"
+"如果你成功撤离，资源通常不是问题。"
+
+#: .\heart.lua
+msgid "Whole Room for a Cost"
+msgstr "有代价的整个房间"
+
+#: .\heart.lua
+msgid ""
+"Returns the whole room IF you have a Vortex Token.\n"
+"Otherwise only personal items return.\n"
+"Forces difficult choices about what to bring back."
+msgstr ""
+"如果你拥有漩涡令牌，则整个房间的物品会返回。\n"
+"否则只有个人物品会返回。\n"
+"迫使你艰难抉择带回什么。"
+
+#: .\heart.lua
+msgid "Self Only"
+msgstr "仅自身"
+
+#: .\heart.lua
+msgid ""
+"Only what you're carrying returns with you.\n"
+"You must always make difficult choices about items."
+msgstr ""
+"只有你携带的物品会随你返回。\n"
+"你必须始终对物品做出艰难抉择。"
+
+#: .\heart.lua
+msgid "Free Warp Focus"
+msgstr "免费扭曲专注"
+
+#: .\heart.lua
+msgid ""
+"Warp Home Focus works for FREE (reusable, no cost).\n"
+"Easiest mode - recommended for casual play.\n"
+"Skyward Beacon also works as normal."
+msgstr ""
+"扭曲归家专注可免费使用（可重复使用，无消耗）。\n"
+"最简单的模式——推荐用于休闲游玩。\n"
+"天际信标也照常工作。"
+
+#: .\heart.lua
+msgid "Warp Focus Costs 1 Shard"
+msgstr "扭曲专注消耗1个碎片"
+
+#: .\heart.lua
+msgid ""
+"Warp Home Focus costs 1 warp shard each use.\n"
+"Cannot use if enemies are within 10 tiles.\n"
+"Skyward Beacon also works as normal."
+msgstr ""
+"每次使用归家聚焦消耗1个跃迁碎片。\n"
+"10格范围内有敌人时无法使用。\n"
+"天际信标也可正常运作。"
+
+#: .\heart.lua
+msgid "Skyward Beacon Only"
+msgstr "仅限天际信标"
+
+#: .\heart.lua
+msgid ""
+"Only crafted Skyward Beacons work (5 shards each).\n"
+"Warp Home Focus does not function.\n"
+"The default balanced option."
+msgstr ""
+"仅制作的天际信标有效（每个消耗5碎片）。\n"
+"归家聚焦无法使用。\n"
+"默认平衡选项。"
+
+#: .\heart.lua
+msgid "Extraction Only"
+msgstr "仅限提取"
+
+#: .\heart.lua
+msgid ""
+"NO emergency returns work at all.\n"
+"Only return obelisks can bring you home.\n"
+"Maximum challenge mode."
+msgstr ""
+"完全无法使用紧急返回。\n"
+"只有返回方尖碑能带你回家。\n"
+"极限挑战模式。"
+
+#: .\heart.lua
+msgid "Stability I"
+msgstr "稳定 I"
+
+#: .\heart.lua
+msgid "+2 bonus grace pulses"
+msgstr "+2额外恩惠脉冲"
+
+#: .\heart.lua .\items.json
+msgid "Warped Tincture"
+msgid_plural "Warped Tinctures"
+msgstr[0] "跃迁药水"
+
+#: .\heart.lua
+msgid "Stability II"
+msgstr "稳定 II"
+
+#: .\heart.lua
+msgid "+4 total bonus grace pulses"
+msgstr "总计+4额外恩惠脉冲"
+
+#: .\heart.lua
+msgid "Warped Elixir"
+msgstr "跃迁灵药"
+
+#: .\heart.lua
+msgid "Stability III"
+msgstr "稳定 III"
+
+#: .\heart.lua
+msgid "+6 total bonus grace pulses (MAX)"
+msgstr "总计+6额外恩惠脉冲（最大）"
+
+#: .\heart.lua
+msgid "Warped Panacea"
+msgstr "跃迁万灵药"
+
+#: .\heart.lua
+msgid "Scouting I"
+msgstr "侦察 I"
+
+#: .\heart.lua
+msgid "Reveal 3x3 area on landing"
+msgstr "着陆时揭示3x3区域"
+
+#: .\heart.lua .\items.json
+msgid "Scouting Lens"
+msgid_plural "Scouting Lenss"
+msgstr[0] "侦察透镜"
+
+#: .\heart.lua
+msgid "Scouting II"
+msgstr "侦察 II"
+
+#: .\heart.lua
+msgid "Reveal 5x5 area on landing (MAX)"
+msgstr "着陆时揭示5x5区域（最大）"
+
+#: .\heart.lua .\items.json
+msgid "Scouting Scope"
+msgid_plural "Scouting Scopes"
+msgstr[0] "侦察瞄准镜"
+
+#: .\heart.lua
+msgid "Multiple Exits"
+msgstr "多重出口"
+
+#: .\heart.lua
+msgid "2 return obelisks per expedition"
+msgstr "每次远征提供2座返回方尖碑"
+
+#: .\heart.lua .\items.json
+msgid "Escape Charm"
+msgid_plural "Escape Charms"
+msgstr[0] "逃脱护符"
+
+#: .\heart.lua
+msgid "Large Expeditions"
+msgstr "大型远征"
+
+#: .\heart.lua
+msgid "2x grace period, 125 token reward"
+msgstr "2倍宽限期，125代币奖励"
+
+#: .\heart.lua .\items.json
+msgid "Warped Hourglass"
+msgid_plural "Warped Hourglasss"
+msgstr[0] "扭曲沙漏"
+
+#: .\heart.lua
+msgid "Extended Expeditions"
+msgstr "延长远征"
+
+#: .\heart.lua
+msgid "3x grace period, 200 token reward (MAX)"
+msgstr "3倍宽限期，200代币奖励（最大）"
+
+#: .\heart.lua
+msgid "Warped Sundial"
+msgstr "扭曲日晷"
+
+#: .\heart.lua
+msgid "Expedition Missions"
+msgstr "远征任务"
+
+#: .\heart.lua
+msgid "1 bonus mission per expedition"
+msgstr "每次远征提供1个额外任务"
+
+#: .\heart.lua
+msgid "Warped Contract"
+msgstr "扭曲契约"
+
+#: .\heart.lua
+msgid "Two Missions"
+msgstr "双重任务"
+
+#: .\heart.lua
+msgid "2 bonus missions per expedition"
+msgstr "每次远征提供2个额外任务"
+
+#: .\heart.lua
+msgid "Reinforced Contract"
+msgstr "强化契约"
+
+#: .\heart.lua
+msgid "Three Missions"
+msgstr "三重任务"
+
+#: .\heart.lua
+msgid "3 bonus missions per expedition"
+msgstr "每次远征提供3个额外任务"
+
+#: .\heart.lua
+msgid "Sealed Contract"
+msgstr "封印契约"
+
+#: .\heart.lua
+msgid "Four Missions"
+msgstr "四重任务"
+
+#: .\heart.lua
+msgid "4 bonus missions per expedition"
+msgstr "每次远征提供4个额外任务"
+
+#: .\heart.lua
+msgid "Binding Contract"
+msgstr "绑定契约"
+
+#: .\heart.lua
+msgid "Five Missions"
+msgstr "五项任务"
+
+#: .\heart.lua
+msgid "5 bonus missions per expedition (MAX)"
+msgstr "每次远征5个奖励任务（最大）"
+
+#: .\heart.lua
+msgid "Eternal Contract"
+msgstr "永恒契约"
+
+#: .\heart.lua
+msgid "You need 4 warp shards to heal yourself."
+msgstr "你需要4个跃迁碎片来治疗自己。"
+
+#: .\heart.lua
+msgid "You feel refreshed and restored!"
+msgstr "你感到焕然一新，精力充沛！"
+
+#: .\heart.lua
+msgid "Construction"
+msgstr "建造"
+
+#: .\heart.lua
+msgid "Upgrades"
+msgstr "升级"
+
+#: .\heart.lua
+msgid "Services"
+msgstr "服务"
+
+#: .\heart.lua
+msgid "Difficulty Settings"
+msgstr "难度设置"
+
+#: .\heart.lua
+msgid "Information"
+msgstr "信息"
+
+#: .\heart.lua
+msgid "Rank-Up Challenges"
+msgstr "晋升挑战"
+
+#: .\heart.lua .\main.lua
+msgid "Close"
+msgstr "关闭"
+
+#: .\heart.lua
+msgid "Heal me (4 Warp Shards)"
+msgstr "治疗我（4个跃迁碎片）"
+
+#: .\heart.lua
+msgid "Heal me (Free)"
+msgstr "治疗我（免费）"
+
+#: .\heart.lua
+msgid "View expedition statistics"
+msgstr "查看远征统计"
+
+#: .\heart.lua
+msgid "Back"
+msgstr "返回"
+
+#: .\heart.lua
+#, c-format
+msgid "Success Rate: %d%%"
+msgstr "成功率：%d%%"
+
+#: .\heart.lua
+#, c-format
+msgid "Failed Expeditions: %d\n"
+msgstr "失败的远征：%d\n"
+
+#: .\heart.lua
+#, c-format
+msgid "Successful Returns: %d\n"
+msgstr "成功返回：%d\n"
+
+#: .\heart.lua
+#, c-format
+msgid "Total Expeditions: %d\n"
+msgstr "总远征次数：%d\n"
+
+#: .\heart.lua
+#, c-format
+msgid "Current Rank: %s (%d)\n"
+msgstr "当前等级：%s（%d）\n"
+
+#: .\heart.lua
+msgid "=== Expedition Statistics ===\n"
+msgstr "=== 远征统计 ===\n"
+
+#: .\heart.lua
+msgid "Upgrades (Craft items near Heart to unlock)"
+msgstr "升级项（在核心附近制作物品以解锁）"
+
+#: .\heart.lua
+#, c-format
+msgid "Stability: MAX (+%d pulses)"
+msgstr "稳定性：已满级（+%d 脉冲）"
+
+#: .\heart.lua
+#, c-format
+msgid "Stability: Level %d - Next: %s (craft %s)"
+msgstr "稳定性：等级 %d - 下一级：%s（制作 %s）"
+
+#: .\heart.lua
+msgid "Scouting: MAX (5x5 reveal)"
+msgstr "侦察：已满级（5x5 区域揭示）"
+
+#: .\heart.lua
+#, c-format
+msgid "Scouting: Level %d - Next: %s (craft %s)"
+msgstr "侦察：等级 %d - 下一级：%s（制作 %s）"
+
+#: .\heart.lua
+msgid "Exits: Unlocked (2 per expedition)"
+msgstr "出口：已解锁（每次远征 2 个）"
+
+#: .\heart.lua
+#, c-format
+msgid "Exits: Not unlocked - craft %s"
+msgstr "出口：未解锁 - 制作 %s"
+
+#: .\heart.lua
+msgid "Expedition Length: MAX (Extended available)"
+msgstr "远征时长：已满级（可进行延长远征）"
+
+#: .\heart.lua
+#, c-format
+msgid "Expedition Length: Level %d - Next: %s (craft %s)"
+msgstr "远征时长：等级 %d - 下一级：%s（制作 %s）"
+
+#: .\heart.lua
+#, c-format
+msgid "Bonus Missions: MAX (%d per expedition)"
+msgstr "额外任务：已满级（每次远征 %d 个）"
+
+#: .\heart.lua
+#, c-format
+msgid "Bonus Missions: %d per expedition - Next: %s (craft %s)"
+msgstr "额外任务：每次远征 %d 个 - 下一级：%s（制作 %s）"
+
+#: .\heart.lua
+#, c-format
+msgid "Bonus Missions: Not unlocked - craft %s"
+msgstr "额外任务：未解锁 - 制作 %s"
+
+#: .\heart.lua
+msgid "How do upgrades work?"
+msgstr "升级如何运作？"
+
+#: .\heart.lua
+msgid "Bonus Missions is at maximum level (5 missions per expedition)."
+msgstr "额外任务已达最高等级（每次远征 5 个任务）。"
+
+#: .\heart.lua
+#, c-format
+msgid ""
+"%s: %s\n"
+"Craft: %s"
+msgstr ""
+"%s：%s\n"
+"制作：%s"
+
+#: .\heart.lua
+msgid "Expedition Length is at maximum (Extended Expeditions available)."
+msgstr "远征时长已达最高（可进行延长远征）。"
+
+#: .\heart.lua
+msgid "Multiple Exits is unlocked (2 return obelisks per expedition)."
+msgstr "多重出口已解锁（每次远征 2 个返回方尖碑）。"
+
+#: .\heart.lua
+msgid "Scouting is at maximum level (5x5 area revealed on landing)."
+msgstr "侦察已提升至最高等级（着陆时揭示5x5区域）。"
+
+#: .\heart.lua
+msgid "Stability is at maximum level (+6 bonus grace pulses)."
+msgstr "稳定性已提升至最高等级（+6额外恩典脉冲）。"
+
+#: .\heart.lua
+msgid ""
+"Each upgrade requires different scavenged items. Check the crafting menu for"
+" requirements."
+msgstr "每次升级需要不同的拾荒物品。请在制作菜单中查看需求。"
+
+#: .\heart.lua
+msgid ""
+"5. Activate the crafted item to unlock the upgrade\n"
+"\n"
+msgstr ""
+"5. 激活制作物品以解锁升级\n"
+"\n"
+
+#: .\heart.lua
+msgid "4. Craft the upgrade artifact (e.g., 'Warped Tincture')\n"
+msgstr "4. 制作升级神器（例如，“扭曲药剂”）\n"
+
+#: .\heart.lua
+msgid "3. Open the crafting menu (& key) near the Heart\n"
+msgstr "3. 在核心附近打开制作菜单（&键）\n"
+
+#: .\heart.lua
+msgid "2. Return home safely with your loot\n"
+msgstr "2. 带着战利品安全返回家园\n"
+
+#: .\heart.lua
+msgid "1. Gather the required items during expeditions\n"
+msgstr "1. 在远征期间收集所需物品\n"
+
+#: .\heart.lua
+msgid ""
+"To unlock upgrades, you must CRAFT special artifacts near the Heart of the Island.\n"
+"\n"
+msgstr ""
+"要解锁升级，你必须在岛屿核心附近制作特殊神器。\n"
+"\n"
+
+#: .\heart.lua
+msgid "=== How Upgrades Work ===\n"
+msgstr "=== 升级机制 ===\n"
+
+#: .\heart.lua
+msgid "Explain rank-up system"
+msgstr "解释等级提升系统"
+
+#: .\heart.lua
+msgid "View my current rank"
+msgstr "查看我的当前等级"
+
+#: .\heart.lua
+msgid "Rank 1 Challenge: Proof of Determination"
+msgstr "等级1挑战：决心证明"
+
+#: .\heart.lua
+msgid "Rank 2 Challenge: Proof of Mastery"
+msgstr "等级2挑战：精通证明"
+
+#: .\heart.lua
+msgid "Completing this proves you have achieved ultimate mastery of survival."
+msgstr "完成此挑战证明你已掌握生存的终极技巧。"
+
+#: .\heart.lua
+msgid ""
+"- Must be crafted near the Heart\n"
+"\n"
+msgstr ""
+"- 必须在核心附近制作\n"
+"\n"
+
+#: .\heart.lua
+msgid "- PRY quality 2\n"
+msgstr "- PRY品质2"
+
+#: .\heart.lua
+msgid "- CUT_FINE quality 2\n"
+msgstr "- CUT_FINE品质2"
+
+#: .\heart.lua
+msgid "- BUTCHER quality 16\n"
+msgstr "- BUTCHER品质16"
+
+#: .\heart.lua
+msgid "- 4 warp shards\n"
+msgstr "- 4个扭曲碎片"
+
+#: .\heart.lua
+msgid "Requirements:\n"
+msgstr "需求：\n"
+
+#: .\heart.lua
+msgid "=== Proof of Mastery ===\n"
+msgstr "=== 精通证明 ===\n"
+
+#: .\heart.lua
+msgid ""
+"Completing this proves you have mastered basic survival and tool-making."
+msgstr "完成此项证明你已掌握基本生存与工具制作。"
+
+#: .\heart.lua
+msgid "- WRENCH quality 2\n"
+msgstr "- 扳手 品质 2\n"
+
+#: .\heart.lua
+msgid "- SAW_W quality 2\n"
+msgstr "- 锯子 品质 2\n"
+
+#: .\heart.lua
+msgid "- HAMMER quality 2\n"
+msgstr "- 锤子 品质 2\n"
+
+#: .\heart.lua
+msgid "- 2 warp shards\n"
+msgstr "- 2 个跃迁碎片\n"
+
+#: .\heart.lua
+msgid "=== Proof of Determination ===\n"
+msgstr "=== 决心证明 ===\n"
+
+#: .\heart.lua
+msgid ""
+"Rank 1 unlocks at 10 successful raids\n"
+"Rank 2 unlocks at 20 successful raids"
+msgstr ""
+"等级 1 在 10 次成功突袭后解锁\n"
+"等级 2 在 20 次成功突袭后解锁"
+
+#: .\heart.lua
+#, c-format
+msgid ""
+"Current Rank: %s (%d)\n"
+"Successful Expeditions: %d\n"
+"\n"
+msgstr ""
+"当前等级：%s (%d)\n"
+"成功远征次数：%d\n"
+"\n"
+
+#: .\heart.lua
+msgid "Completing these challenges unlocks new recipes and capabilities. "
+msgstr "完成这些挑战可解锁新配方与能力。"
+
+#: .\heart.lua
+msgid ""
+"These require crafting special items near the Heart that demonstrate you "
+"have gathered the tools and skills needed to survive. "
+msgstr "这需要在核心附近制作特殊物品，以证明你已收集生存所需的工具与技能。"
+
+#: .\heart.lua
+msgid ""
+"Beyond automatic rank progression, you can prove your mastery by completing "
+"rank-up challenges. "
+msgstr "除了自动等级提升外，你还可以通过完成晋级挑战来证明自己的精通。"
+
+#: .\heart.lua
+msgid "What is this place?"
+msgstr "这是什么地方？"
+
+#: .\heart.lua
+msgid "Explain expeditions"
+msgstr "解释远征"
+
+#: .\heart.lua
+msgid "Explain warp shards and tokens"
+msgstr "解释跃迁碎片与代币"
+
+#: .\heart.lua
+msgid ""
+"Craft the infinity nodes first, deploy them on your island, then use them to"
+" craft resources from tokens."
+msgstr "先制作无限节点，将其部署在你的岛屿上，然后使用它们从代币中制作资源。"
+
+#: .\heart.lua
+msgid ""
+"Material tokens (50 per successful expedition) can be converted into raw "
+"resources at infinity nodes. "
+msgstr "材料代币（每次成功远征获得 50 个）可在无限节点处转换为原始资源。"
+
+#: .\heart.lua
+msgid "They're used for healing and upgrades. "
+msgstr "它们用于治疗与升级。"
+
+#: .\heart.lua
+msgid ""
+"Warp shards are earned by completing missions and searching for treasure. "
+msgstr "跃迁碎片通过完成任务和寻找宝藏获得。"
+
+#: .\heart.lua
+msgid ""
+"Find the exit (marked with a return obelisk) and return home before it's too"
+" late!"
+msgstr "找到出口（以返回方尖碑标记）并在为时已晚前返回家园！"
+
+#: .\heart.lua
+msgid "After 12 stages, you'll start taking damage. "
+msgstr "经过12个阶段后，你将开始受到伤害。"
+
+#: .\heart.lua
+msgid "Every 5 minutes, warp sickness advances. "
+msgstr "每5分钟，跃迁病会加剧。"
+
+#: .\heart.lua
+msgid ""
+"You'll teleport to a random location with three missions: find the exit, "
+"kill enemies, and find warp shards. "
+msgstr "你将传送至随机位置，并有三项任务：找到出口、击杀敌人、寻找跃迁碎片。"
+
+#: .\heart.lua
+msgid "Use the Warp Obelisk to begin an expedition. "
+msgstr "使用跃迁方尖碑开始远征。"
+
+#: .\heart.lua
+msgid "If you die, you'll respawn here but lose everything you were carrying."
+msgstr "如果你死亡，将在此处重生，但会丢失携带的所有物品。"
+
+#: .\heart.lua
+msgid ""
+"Gather resources, complete missions, and return before warp sickness kills "
+"you. "
+msgstr "收集资源、完成任务，并在跃迁病杀死你之前返回。"
+
+#: .\heart.lua
+msgid ""
+"Use the Warp Obelisk to teleport to the surface and begin expeditions. "
+msgstr "使用跃迁方尖碑传送至地表并开始远征。"
+
+#: .\heart.lua
+msgid "This floating island is your sanctuary. "
+msgstr "这座浮空岛是你的庇护所。"
+
+#: .\heart.lua
+msgid "ERROR: Failed to create construction mission"
+msgstr "错误：创建建造任务失败"
+
+#: .\heart.lua
+msgid "ERROR: Could not get map"
+msgstr "错误：无法获取地图"
+
+#: .\heart.lua
+msgid "ERROR: Invalid terrain ID: "
+msgstr "错误：无效地形ID："
+
+#: .\heart.lua
+#, c-format
+msgid "current ter at %s is %s"
+msgstr "当前位置 %s 的地形为 %s"
+
+#: .\heart.lua
+msgid "WARNING: Failed to set terrain at position"
+msgstr "警告：设置位置地形失败"
+
+#: .\heart.lua
+msgid "Island Construction"
+msgstr "岛屿建造"
+
+#: .\heart.lua
+msgid "Basement - Already Built"
+msgstr "地下室 - 已建造"
+
+#: .\heart.lua
+#, c-format
+msgid "Build Basement (%d Material Tokens)"
+msgstr "建造地下室（%d 材料代币）"
+
+#: .\heart.lua
+msgid "Expansion 1 - Already Built"
+msgstr "扩建1 - 已建造"
+
+#: .\heart.lua
+#, c-format
+msgid "Build Expansion 1 - Corridors (%d Material Tokens)"
+msgstr "建造扩建1 - 走廊（%d 材料代币）"
+
+#: .\heart.lua
+msgid "Expansion 2 - Already Built"
+msgstr "扩建2 - 已建造"
+
+#: .\heart.lua
+#, c-format
+msgid "Build Expansion 2 - Central Room (%d Material Tokens)"
+msgstr "建造扩建2 - 中央房间（%d材料代币）"
+
+#: .\heart.lua
+msgid "Expansion 3 - Already Built"
+msgstr "扩建3 - 已建造"
+
+#: .\heart.lua
+#, c-format
+msgid "Build Expansion 3 - Large Room (%d Material Tokens)"
+msgstr "建造扩建3 - 大房间（%d材料代币）"
+
+#: .\heart.lua
+msgid "Expansion 4 - Already Built"
+msgstr "扩建4 - 已建造"
+
+#: .\heart.lua
+#, c-format
+msgid "Build Expansion 4 - Maximum Size (%d Material Tokens)"
+msgstr "建造扩建4 - 最大尺寸（%d材料代币）"
+
+#: .\heart.lua
+#, c-format
+msgid "You need %d material tokens to build the basement."
+msgstr "你需要%d材料代币来建造地下室。"
+
+#: .\heart.lua
+msgid "Construction beginning... The island trembles as new spaces form."
+msgstr "开始建造... 随着新空间形成，岛屿在震动。"
+
+#: .\heart.lua
+msgid "A basement has been carved into the island's depths!"
+msgstr "一个地下室已在岛屿深处开凿完成！"
+
+#: .\heart.lua
+#, c-format
+msgid "You need %d material tokens for this expansion."
+msgstr "你需要%d材料代币进行此次扩建。"
+
+#: .\heart.lua
+msgid "Expanding the basement..."
+msgstr "正在扩建地下室..."
+
+#: .\heart.lua
+msgid ""
+"Cross-shaped corridors now extend from the central room! A skylight "
+"illuminates from above."
+msgstr "十字形走廊现已从中央房间延伸！天窗从上方照亮。"
+
+#: .\heart.lua
+msgid "Widening the corridors..."
+msgstr "正在拓宽走廊..."
+
+#: .\heart.lua
+msgid "The corridors have been widened with additional rooms!"
+msgstr "走廊已通过额外房间拓宽！"
+
+#: .\heart.lua
+msgid "Expanding the central room..."
+msgstr "正在扩建中央房间..."
+
+#: .\heart.lua
+msgid "The central room has been greatly enlarged!"
+msgstr "中央房间已大幅扩大！"
+
+#: .\heart.lua
+msgid "Final expansion underway..."
+msgstr "最终扩建进行中..."
+
+#: .\heart.lua
+msgid "The basement has reached its maximum size! Your sanctuary is complete."
+msgstr "地下室已达到最大尺寸！你的庇护所已完成。"
+
+#: .\heart.lua
+#, c-format
+msgid "Warp Pulse Timing: %s"
+msgstr "跃迁脉冲计时：%s"
+
+#: .\heart.lua
+#, c-format
+msgid "Return Obelisk Behavior: %s"
+msgstr "返回方尖碑行为：%s"
+
+#: .\heart.lua
+#, c-format
+msgid "Emergency Return Options: %s"
+msgstr "紧急返回选项：%s"
+
+#: .\heart.lua
+msgid "Select Warp Pulse Timing"
+msgstr "选择传送脉冲时机"
+
+#: .\heart.lua
+#, c-format
+msgid "Pulse timing set to %s (%d minute intervals)."
+msgstr "脉冲时机已设置为 %s（间隔 %d 分钟）。"
+
+#: .\heart.lua
+msgid "Select Return Obelisk Behavior"
+msgstr "选择返回方尖碑行为"
+
+#: .\heart.lua
+#, c-format
+msgid "Return obelisk behavior set to: %s"
+msgstr "返回方尖碑行为已设置为：%s"
+
+#: .\heart.lua
+msgid "Select Emergency Return Options"
+msgstr "选择紧急返回选项"
+
+#: .\heart.lua
+#, c-format
+msgid "Emergency return options set to: %s"
+msgstr "紧急返回选项已设置为：%s"
+
+#: .\items.json
+msgid "sky island warp remote"
+msgid_plural "sky island warp remotes"
+msgstr[0] "天空岛屿传送遥控器"
+
+#. ~ Description for {'str': 'sky island warp remote'}
+#: .\items.json
+msgid ""
+"A handheld device that can initiate warp expeditions. Debug/testing item "
+"only - spawn via debug menu if needed."
+msgstr "一种可启动传送远征的手持设备。仅限调试/测试物品——如需使用，请通过调试菜单生成。"
+
+#: .\items.json
+msgid "sky island return remote"
+msgid_plural "sky island return remotes"
+msgstr[0] "天空岛屿返回遥控器"
+
+#. ~ Description for {'str': 'sky island return remote'}
+#: .\items.json
+msgid ""
+"A handheld device that can teleport you back to your home location. "
+"Debug/testing item only - spawn via debug menu if needed."
+msgstr "一种可将你传送回起始位置的手持设备。仅限调试/测试物品——如需使用，请通过调试菜单生成。"
+
+#: .\items.json
+msgid "warp shard"
+msgid_plural "warp shards"
+msgstr[0] "传送碎片"
+
+#. ~ Description for {'str': 'warp shard', 'str_pl': 'warp shards'}
+#: .\items.json
+msgid ""
+"A small quantity of airy-thin material that resembles flaked obsidian. It "
+"glints with a purplish shimmer that seems to stretch beyond itself and into "
+"the air. These shards are the currency of your sanctuary island and can be "
+"exchanged for valuable upgrades."
+msgstr "少量轻薄如空气的物质，类似片状黑曜石。它闪烁着紫光，仿佛能延伸至空气中。这些碎片是你庇护岛屿的货币，可用于兑换宝贵的升级。"
+
+#: .\items.json
+msgid "skyisland fake item"
+msgid_plural "skyisland fake items"
+msgstr[0] "天空岛屿虚拟物品"
+
+#. ~ Description for {'str': 'skyisland fake item'}
+#: .\items.json
+msgid ""
+"Dummy item for Sky Island furniture. If you see this, then something went "
+"wrong."
+msgstr "天空岛屿家具的占位物品。如果你看到这个，说明出现了问题。"
+
+#: .\items.json
+msgid "material token"
+msgid_plural "material tokens"
+msgstr[0] "材料代币"
+
+#. ~ Description for {'str': 'material token', 'str_pl': 'material tokens'}
+#: .\items.json
+msgid ""
+"A very tiny disc-shaped blue wafer. It seems to shift in your grasp, feeling"
+" one moment like a grain of sand, then a sharp metal fragment, then a wooden"
+" splinter. These miniature tokens are rewarded for surviving a raid, and can"
+" be crafted on your island for a large supply of common resources by using "
+"infinity nodes as a catalyst."
+msgstr ""
+"一枚极小的盘状蓝色薄片。它在手中似乎会变化，时而感觉像沙粒，时而像锋利的金属碎片，时而又像木屑。这些微型代币是成功抵御袭击的奖励，可在岛屿上利用无限节点作为催化剂，制作出大量常见资源。"
+
+#: .\items.json
+msgid "warped bag"
+msgid_plural "warped bags"
+msgstr[0] "扭曲背包"
+
+#. ~ Description for {'str': 'warped bag'}
+#: .\items.json
+msgid "This is a template you shouldn't actually see."
+msgstr "这是一个你不应实际看到的模板。"
+
+#: .\items.json
+msgid "warped hauler's harness"
+msgid_plural "warped hauler's harnesses"
+msgstr[0] "扭曲搬运工背带"
+
+#. ~ Description for {'str': "warped hauler's harness", 'str_pl': "warped
+#. hauler's harnesses"}
+#: .\items.json
+msgid ""
+"A looped pair of shimmering blue-black straps that can be worn over the "
+"shoulders like a harness. They can snugly fit a single item of nearly any "
+"size in comfort, and any burdens carried here feel twice as light. Ideal for"
+" squeezing one more bulky item home through the exit when your hands are "
+"already full, or even some container packed full of other items! Just beware"
+" you don't break your back doing it."
+msgstr ""
+"一对环状的闪烁蓝黑色带子，可像背带一样穿戴在肩上。它能舒适地固定几乎任何尺寸的单件物品，且此处携带的负重感觉会轻一半。非常适合在双手已满时，再额外挤一件笨重物品回家，甚至可携带装满其他物品的容器！只是要小心别因此伤到背部。"
+
+#: .\items.json
+msgid "warped grass seeds"
+msgid_plural "warped grass seeds"
+msgstr[0] "扭曲草种"
+
+#. ~ Description for {'str': 'warped grass seeds', 'str_pl': 'warped grass
+#. seeds'}
+#: .\items.json
+msgid ""
+"While these are certainly imbued with warp, they don't seem to have any "
+"supernatural powers beyond just growing quickly. A nice option if you want "
+"to re-plant grass on your island, for decoration's sake."
+msgstr "虽然这些种子确实蕴含着扭曲之力，但除了快速生长外，似乎并无其他超自然能力。如果你想在岛上重新种植草皮作为装饰，这是个不错的选择。"
+
+#: .\items.json
+msgid "vortex token"
+msgid_plural "vortex tokens"
+msgstr[0] "涡流令牌"
+
+#. ~ Description for {'str': 'vortex token', 'str_pl': 'vortex tokens'}
+#: .\items.json
+msgid ""
+"This irregular purplish lump seems to slowly pull in air even while you hold"
+" it in your hand. If you have one with you when you activate the return "
+"obelisk and the obelisk is correctly configured, it will drag the entire "
+"contents of the room with you back up to your island."
+msgstr ""
+"这块不规则的紫色块状物即使握在手中，也似乎在缓慢地吸入空气。如果你在激活回归方尖碑时携带此物，且方尖碑配置正确，它会将整个房间的内容物一同拖拽回你的岛屿。"
+
+#: .\items.json
+msgid "warped animal carrier"
+msgid_plural "warped animal carriers"
+msgstr[0] "扭曲动物运输笼"
+
+#. ~ Description for {'str': 'warped animal carrier'}
+#: .\items.json
+msgid ""
+"A hand-sized cage with a shimmering portal at its aperture. Despite being "
+"shaped more like a cat carrier, the power of warp enables it to capture "
+"creatures far bigger than you. This may be your best bet for bringing "
+"animals home to your island sanctuary. Activate to capture an adjacent "
+"animal, or to release a carried animal."
+msgstr ""
+"一个手掌大小的笼子，开口处闪烁着传送门般的光芒。尽管外形更像猫笼，但扭曲之力使其能捕获远比你庞大的生物。这可能是将动物带回岛屿庇护所的最佳选择。激活可捕获相邻动物，或释放已携带的动物。"
+
+#: .\items.json
+msgid "Autodoc copyplate (inert)"
+msgid_plural "Autodoc copyplates (inert)"
+msgstr[0] "自动医疗仪复制板（未激活）"
+
+#. ~ Description for {'str': 'Autodoc copyplate (inert)', 'str_pl': 'Autodoc
+#. copyplates (inert)'}
+#: .\items.json
+msgid ""
+"This strange obsidian-colored plate is capable of mimicking the advanced "
+"tech found within a modern Autodoc, and can be used to create a working copy"
+" at your sanctuary. However, it is inert in its current state and must first"
+" be imprinted on a working Autodoc. To do so, find an Autodoc during an "
+"expedition and activate this item while standing next to it."
+msgstr ""
+"这块奇特的黑色石板能模拟现代自动医疗仪的先进技术，用于在庇护所创建可运作的复制品。但当前处于未激活状态，需先在正常工作的自动医疗仪上刻印。在探险中找到自动医疗仪，站在其旁边激活此物品即可完成刻印。"
+
+#: .\items.json
+msgid "Autodoc copyplate (activated)"
+msgid_plural "Autodoc copyplates (activated)"
+msgstr[0] "自动医疗仪复制板（已激活）"
+
+#. ~ Description for {'str': 'Autodoc copyplate (activated)', 'str_pl':
+#. 'Autodoc copyplates (activated)'}
+#: .\items.json
+msgid ""
+"This strange obsidian-colored plate is capable of mimicking the advanced "
+"tech found within a modern Autodoc, and can be used to create a working copy"
+" at your sanctuary. It has been successfully activated and can be used as "
+"the catalyst to create a new Autodoc at a location of your choosing using "
+"the construction menu. Requires an adjacent Autodoc Couch to function."
+msgstr ""
+"这块奇特的黑色石板能模拟现代自动医疗仪的先进技术，用于在庇护所创建可运作的复制品。它已成功激活，可通过建造菜单作为催化剂，在你选择的位置创建新的自动医疗仪。需毗邻自动医疗仪躺椅才能运作。"
+
+#: .\items.json
+msgid "Autodoc Couch copyplate (inert)"
+msgid_plural "Autodoc Couch copyplates (inert)"
+msgstr[0] "自动医疗仪躺椅复制板（未激活）"
+
+#. ~ Description for {'str': 'Autodoc Couch copyplate (inert)', 'str_pl':
+#. 'Autodoc Couch copyplates (inert)'}
+#: .\items.json
+msgid ""
+"This strange obsidian-colored plate is capable of mimicking the patient "
+"interface couch used with an Autodoc. It is inert and must first be "
+"imprinted on a working Autodoc Couch. Find one during an expedition and "
+"activate this item while standing next to it."
+msgstr ""
+"这块奇特的黑色石板能模拟自动医疗仪配套的病患接口躺椅。当前处于未激活状态，需先在正常工作的自动医疗仪躺椅上刻印。在探险中找到躺椅，站在其旁边激活此物品即可完成刻印。"
+
+#: .\items.json
+msgid "Autodoc Couch copyplate (activated)"
+msgid_plural "Autodoc Couch copyplates (activated)"
+msgstr[0] "自动医疗仪躺椅复制板（已激活）"
+
+#. ~ Description for {'str': 'Autodoc Couch copyplate (activated)', 'str_pl':
+#. 'Autodoc Couch copyplates (activated)'}
+#: .\items.json
+msgid ""
+"This strange obsidian-colored plate is capable of mimicking the patient "
+"interface couch used with an Autodoc. It has been activated and can be used "
+"to create a new Autodoc Couch via the construction menu. Must be placed "
+"adjacent to an Autodoc to function."
+msgstr "这块奇特的黑色石板能模拟自动医疗仪配套的病患接口躺椅。它已激活，可通过建造菜单创建新的自动医疗仪躺椅。必须毗邻自动医疗仪才能运作。"
+
+#: .\items.json
+msgid "Nanofabricator copyplate (inert)"
+msgid_plural "Nanofabricator copyplates (inert)"
+msgstr[0] "纳米制造机复制板（未激活）"
+
+#. ~ Description for {'str': 'Nanofabricator copyplate (inert)', 'str_pl':
+#. 'Nanofabricator copyplates (inert)'}
+#: .\items.json
+msgid ""
+"This strange obsidian-colored plate is capable of mimicking the main unit of"
+" a Nanofabricator. It is inert and must first be imprinted on a working "
+"Nanofabricator body. Find one during an expedition and activate this item "
+"while standing next to it."
+msgstr ""
+"这块奇特的黑色石板能模拟纳米制造机的主体单元。当前处于未激活状态，需先在正常工作的纳米制造机主体上刻印。在探险中找到主体，站在其旁边激活此物品即可完成刻印。"
+
+#: .\items.json
+msgid "Nanofabricator copyplate (activated)"
+msgid_plural "Nanofabricator copyplates (activated)"
+msgstr[0] "纳米制造机复制板（已激活）"
+
+#. ~ Description for {'str': 'Nanofabricator copyplate (activated)', 'str_pl':
+#. 'Nanofabricator copyplates (activated)'}
+#: .\items.json
+msgid ""
+"This strange obsidian-colored plate is capable of mimicking the main unit of"
+" a Nanofabricator. It has been activated and can be used to create a new "
+"Nanofabricator body via the construction menu. Must be placed adjacent to a "
+"Nanofabricator Control Panel to function."
+msgstr "这块奇特的黑色石板能模拟纳米制造机的主体单元。它已激活，可通过建造菜单创建新的纳米制造机主体。必须毗邻纳米制造机控制面板才能运作。"
+
+#: .\items.json
+msgid "Nanofabricator Control Panel copyplate (inert)"
+msgid_plural "Nanofabricator Control Panel copyplates (inert)"
+msgstr[0] "纳米制造机控制面板复制板（未激活）"
+
+#. ~ Description for {'str': 'Nanofabricator Control Panel copyplate (inert)',
+#. 'str_pl': 'Nanofabricator Control Panel copyplates (inert)'}
+#: .\items.json
+msgid ""
+"This strange obsidian-colored plate is capable of mimicking the control "
+"panel of a Nanofabricator. It is inert and must first be imprinted on a "
+"working Nanofabricator control panel. Find one during an expedition and "
+"activate this item while standing next to it."
+msgstr ""
+"这块奇特的黑色石板能模拟纳米制造机的控制面板。当前处于未激活状态，需先在正常工作的纳米制造机控制面板上刻印。在探险中找到控制面板，站在其旁边激活此物品即可完成刻印。"
+
+#: .\items.json
+msgid "Nanofabricator Control Panel copyplate (activated)"
+msgid_plural "Nanofabricator Control Panel copyplates (activated)"
+msgstr[0] "纳米制造机控制面板复制板（已激活）"
+
+#. ~ Description for {'str': 'Nanofabricator Control Panel copyplate
+#. (activated)', 'str_pl': 'Nanofabricator Control Panel copyplates
+#. (activated)'}
+#: .\items.json
+msgid ""
+"This strange obsidian-colored plate is capable of mimicking the control "
+"panel of a Nanofabricator. It has been activated and can be used to create a"
+" new Nanofabricator control panel via the construction menu. Must be placed "
+"adjacent to a Nanofabricator body to function."
+msgstr ""
+"这块奇异的黑曜石色板能够模仿纳米制造机的控制面板。它已被激活，可通过建造菜单用于创建新的纳米制造机控制面板。必须紧邻纳米制造机主体放置才能发挥作用。"
+
+#: .\items.json
+msgid "CVD Machine copyplate (inert)"
+msgid_plural "CVD Machine copyplates (inert)"
+msgstr[0] "CVD机器复制板（惰性）"
+
+#. ~ Description for {'str': 'CVD Machine copyplate (inert)', 'str_pl': 'CVD
+#. Machine copyplates (inert)'}
+#: .\items.json
+msgid ""
+"This strange obsidian-colored plate is capable of mimicking the main unit of"
+" a CVD Machine. It is inert and must first be imprinted on a working CVD "
+"Machine body. Find one during an expedition and activate this item while "
+"standing next to it."
+msgstr ""
+"这块奇异的黑曜石色板能够模仿CVD机器的主体单元。它处于惰性状态，必须先在一台正常工作的CVD机器主体上刻印。在远征中找到一台，并站在旁边激活此物品。"
+
+#: .\items.json
+msgid "CVD Machine copyplate (activated)"
+msgid_plural "CVD Machine copyplates (activated)"
+msgstr[0] "CVD机器复制板（已激活）"
+
+#. ~ Description for {'str': 'CVD Machine copyplate (activated)', 'str_pl':
+#. 'CVD Machine copyplates (activated)'}
+#: .\items.json
+msgid ""
+"This strange obsidian-colored plate is capable of mimicking the main unit of"
+" a CVD Machine. It has been activated and can be used to create a new CVD "
+"Machine body via the construction menu. Must be placed adjacent to a CVD "
+"Control Panel to function."
+msgstr ""
+"这块奇异的黑曜石色板能够模仿CVD机器的主体单元。它已被激活，可通过建造菜单用于创建新的CVD机器主体。必须紧邻CVD控制面板放置才能发挥作用。"
+
+#: .\items.json
+msgid "CVD Control Panel copyplate (inert)"
+msgid_plural "CVD Control Panel copyplates (inert)"
+msgstr[0] "CVD控制面板复制板（惰性）"
+
+#. ~ Description for {'str': 'CVD Control Panel copyplate (inert)', 'str_pl':
+#. 'CVD Control Panel copyplates (inert)'}
+#: .\items.json
+msgid ""
+"This strange obsidian-colored plate is capable of mimicking the control "
+"panel of a CVD Machine. It is inert and must first be imprinted on a working"
+" CVD control panel. Find one during an expedition and activate this item "
+"while standing next to it."
+msgstr ""
+"这块奇异的黑曜石色板能够模仿CVD机器的控制面板。它处于惰性状态，必须先在一台正常工作的CVD控制面板上刻印。在远征中找到一台，并站在旁边激活此物品。"
+
+#: .\items.json
+msgid "CVD Control Panel copyplate (activated)"
+msgid_plural "CVD Control Panel copyplates (activated)"
+msgstr[0] "CVD控制面板复制板（已激活）"
+
+#. ~ Description for {'str': 'CVD Control Panel copyplate (activated)',
+#. 'str_pl': 'CVD Control Panel copyplates (activated)'}
+#: .\items.json
+msgid ""
+"This strange obsidian-colored plate is capable of mimicking the control "
+"panel of a CVD Machine. It has been activated and can be used to create a "
+"new CVD control panel via the construction menu. Must be placed adjacent to "
+"a CVD Machine body to function."
+msgstr ""
+"这块奇异的黑曜石色板能够模仿CVD机器的控制面板。它已被激活，可通过建造菜单用于创建新的CVD控制面板。必须紧邻CVD机器主体放置才能发挥作用。"
+
+#: .\items.json
+msgid "Labs Catalyst"
+msgid_plural "Labs Catalysts"
+msgstr[0] "实验室催化剂"
+
+#. ~ Description for {'str': 'Labs Catalyst'}
+#: .\items.json
+msgid ""
+"A bit of warp power, a magnetic stripe keycard from a dangerous place, and a"
+" little hope, blended well. This item is required to begin a Labs "
+"expedition, and is consumed when leaving."
+msgstr "一点扭曲能量、一张来自危险地带的磁条钥匙卡，再加上少许希望，充分混合。此物品是开启实验室远征所必需的，并在离开时消耗。"
+
+#: .\items.json
+msgid "Heartseed"
+msgid_plural "Heartseeds"
+msgstr[0] "核心种子"
+
+#. ~ Description for {'str': 'Heartseed'}
+#: .\items.json
+msgid ""
+"A whorl of black stone that feels impossibly heavy for its size. Activate "
+"this on your island to place the Heart of the Island, the catalyst of future"
+" upgrades."
+msgstr "一团黑色石头的漩涡，其重量相对于体积来说重得不可思议。在你的岛屿上激活此物以放置岛屿之心，这是未来升级的催化剂。"
+
+#: .\items.json
+msgid "infinity tree sapling"
+msgid_plural "infinity tree saplings"
+msgstr[0] "无限树苗"
+
+#. ~ Description for {'str': 'infinity tree sapling'}
+#: .\items.json
+msgid ""
+"A fragile little wisp of a sapling. Its leaves shake and quiver, shimmering "
+"with strange energies. Activate this on your island to place an infinity "
+"tree, which can be used as a catalyst to turn material tokens into wooden "
+"resources."
+msgstr ""
+"一株脆弱的小树苗，如微光般摇曳。它的叶子颤抖摆动，闪烁着奇异能量。在你的岛屿上激活此物以放置一棵无限树，可用作催化剂将物质代币转化为木质资源。"
+
+#: .\items.json
+msgid "infinity stone source"
+msgid_plural "infinity stone sources"
+msgstr[0] "无限石源"
+
+#. ~ Description for {'str': 'infinity stone source'}
+#: .\items.json
+msgid ""
+"A crackling little cluster of pebbles that spark as they knock together, "
+"tumbling about from forces unseen. Activate this on your island to place an "
+"infinity stone, which can be used as a catalyst to turn material tokens into"
+" stony and earthen resources."
+msgstr ""
+"一小簇噼啪作响的卵石，相互碰撞时迸发火花，在无形力量作用下翻滚不停。在你的岛屿上激活此物以放置一块无限石，可用作催化剂将物质代币转化为石质与土质资源。"
+
+#: .\items.json
+msgid "infinity ore crucible"
+msgid_plural "infinity ore crucibles"
+msgstr[0] "无限矿石坩埚"
+
+#. ~ Description for {'str': 'infinity ore crucible'}
+#: .\items.json
+msgid ""
+"A miniature tangle of metal that resembles a dust bunny made of barbed wire."
+" It twists in upon itself endlessly, folding and unfolding in ways that "
+"don't seem possible. Activate this on your island to place an infinity ore, "
+"which can be used as a catalyst to turn material tokens into metal "
+"resources."
+msgstr ""
+"一团微型金属缠结物，形似由带刺铁丝构成的尘团。它无尽地自我扭曲，以看似不可能的方式折叠与展开。在你的岛屿上激活此物以放置一块无限矿石，可用作催化剂将物质代币转化为金属资源。"
+
+#: .\items.json
+msgid "nearby infinity tree"
+msgid_plural "nearby infinity trees"
+msgstr[0] "附近无限树"
+
+#. ~ Description for {'str': 'nearby infinity tree'}
+#. ~ Description for {'str': 'nearby infinity stone'}
+#. ~ Description for {'str': 'nearby infinity ore'}
+#. ~ Description for {'str': 'Heart of the Island'}
+#: .\items.json
+msgid "This is a crafting_pseudo_item. If you have it, something is wrong."
+msgstr "这是一个合成伪物品。如果你持有它，说明出现了问题。"
+
+#: .\items.json
+msgid "nearby infinity stone"
+msgid_plural "nearby infinity stones"
+msgstr[0] "附近无限石"
+
+#: .\items.json
+msgid "nearby infinity ore"
+msgid_plural "nearby infinity ores"
+msgstr[0] "附近无限矿石"
+
+#: .\items.json
+msgid "Proof of Determination"
+msgid_plural "Proof of Determinations"
+msgstr[0] "决心证明"
+
+#. ~ Description for {'str': 'Proof of Determination'}
+#: .\items.json
+msgid ""
+"A metaphysical artifact proving your determination to survive. Activate near"
+" the Heart of the Island to advance your rank."
+msgstr "一件形而上学器物，证明你生存的决心。在岛屿之心附近激活以提升你的等级。"
+
+#: .\items.json
+msgid "Proof of Mastery"
+msgid_plural "Proof of Masterys"
+msgstr[0] "精通证明"
+
+#. ~ Description for {'str': 'Proof of Mastery'}
+#: .\items.json
+msgid ""
+"A metaphysical artifact proving your mastery of survival. Activate near the "
+"Heart of the Island to advance your rank."
+msgstr "一件形而上学器物，证明你生存的精通。在岛屿之心附近激活以提升你的等级。"
+
+#. ~ Description for {'str': 'Warped Tincture'}
+#: .\items.json
+msgid ""
+"This strange metaphysical artifact will empower the island and unlock a "
+"permanent upgrade. Activate near the Heart of the Island to unlock Stability"
+" I: +1 bonus grace pulse (9 total)."
+msgstr "这件奇异的形而上学器物将增强岛屿并解锁永久升级。在岛屿之心附近激活以解锁稳定性 I：+1 额外恩典脉冲（总计 9）。"
+
+#: .\items.json
+msgid "Surreal Shield"
+msgid_plural "Surreal Shields"
+msgstr[0] "超现实护盾"
+
+#. ~ Description for {'str': 'Surreal Shield'}
+#: .\items.json
+msgid ""
+"This strange metaphysical artifact will empower the island and unlock a "
+"permanent upgrade. Activate near the Heart of the Island to unlock Stability"
+" II: +2 total bonus grace pulses (10 total)."
+msgstr "这件奇异的形而上学器物将增强岛屿并解锁永久升级。在岛屿之心附近激活以解锁稳定性 II：+2 总计额外恩典脉冲（总计 10）。"
+
+#: .\items.json
+msgid "Warpstream Plating"
+msgid_plural "Warpstream Platings"
+msgstr[0] "扭曲流镀层"
+
+#. ~ Description for {'str': 'Warpstream Plating'}
+#: .\items.json
+msgid ""
+"This strange metaphysical artifact will empower the island and unlock a "
+"permanent upgrade. Activate near the Heart of the Island to unlock Stability"
+" III: +3 total bonus grace pulses (11 total)."
+msgstr "这件奇异的形而上学器物将增强岛屿并解锁永久升级。在岛屿之心附近激活以解锁稳定性 III：+3 总计额外恩典脉冲（总计 11）。"
+
+#. ~ Description for {'str': 'Scouting Lens'}
+#: .\items.json
+msgid ""
+"This strange metaphysical artifact will empower the island and unlock a "
+"permanent upgrade. Activate near the Heart of the Island to unlock Scouting "
+"I: Reveals a 3x3 area around your landing zone."
+msgstr "这件奇异的形而上学器物将增强岛屿并解锁永久升级。在岛屿之心附近激活以解锁侦察 I：揭示你着陆区周围的 3x3 区域。"
+
+#. ~ Description for {'str': 'Scouting Scope'}
+#: .\items.json
+msgid ""
+"This strange metaphysical artifact will empower the island and unlock a "
+"permanent upgrade. Activate near the Heart of the Island to unlock Scouting "
+"II: Reveals a 5x5 area around your landing zone."
+msgstr "这件奇异的形而上学器物将增强岛屿并解锁永久升级。在岛屿之心附近激活以解锁侦察 II：揭示你着陆区周围的 5x5 区域。"
+
+#. ~ Description for {'str': 'Escape Charm'}
+#: .\items.json
+msgid ""
+"This strange metaphysical artifact will empower the island and unlock a "
+"permanent upgrade. Activate near the Heart of the Island to unlock Multiple "
+"Exits: Two return obelisks will spawn per expedition."
+msgstr "这件奇异的形而上学器物将增强岛屿并解锁永久升级。在岛屿之心附近激活以解锁多重出口：每次远征将生成两个返回方尖碑。"
+
+#. ~ Description for {'str': 'Warped Hourglass'}
+#: .\items.json
+msgid ""
+"This strange metaphysical artifact will empower the island and unlock a "
+"permanent upgrade. Activate near the Heart of the Island to unlock Large "
+"Expeditions: Double grace period and 125 token reward."
+msgstr "这件奇异的形而上学器物将增强岛屿并解锁永久升级。在岛屿之心附近激活以解锁大型远征：双倍恩典期和 125 代币奖励。"
+
+#: .\items.json
+msgid "Watch of Flowing Time"
+msgid_plural "Watch of Flowing Times"
+msgstr[0] "流动时间之表"
+
+#. ~ Description for {'str': 'Watch of Flowing Time'}
+#: .\items.json
+msgid ""
+"This strange metaphysical artifact will empower the island and unlock a "
+"permanent upgrade. Activate near the Heart of the Island to unlock Extended "
+"Expeditions: Triple grace period and 200 token reward."
+msgstr "这件奇异的形而上学器物将增强岛屿并解锁永久升级。在岛屿之心附近激活以解锁扩展远征：三倍恩典期和 200 代币奖励。"
+
+#: .\items.json
+msgid "Basement Locator"
+msgid_plural "Basement Locators"
+msgstr[0] "地下室定位器"
+
+#. ~ Description for {'str': 'Basement Locator'}
+#: .\items.json
+msgid ""
+"This strange metaphysical artifact will empower the island and unlock a "
+"permanent upgrade. Activate near the Heart of the Island to unlock Basement "
+"Starts: Begin expeditions in underground basements."
+msgstr "这件奇异的形而上遗物将增强岛屿力量并解锁永久升级。在岛屿之心附近激活以解锁地下室起点：开始在地下室进行远征。"
+
+#: .\items.json
+msgid "Rooftop Locator"
+msgid_plural "Rooftop Locators"
+msgstr[0] "屋顶定位器"
+
+#. ~ Description for {'str': 'Rooftop Locator'}
+#: .\items.json
+msgid ""
+"This strange metaphysical artifact will empower the island and unlock a "
+"permanent upgrade. Activate near the Heart of the Island to unlock Rooftop "
+"Starts: Begin expeditions on building rooftops."
+msgstr "这件奇异的形而上遗物将增强岛屿力量并解锁永久升级。在岛屿之心附近激活以解锁屋顶起点：开始在建筑屋顶进行远征。"
+
+#: .\items.json
+msgid "Laboratory Locator"
+msgid_plural "Laboratory Locators"
+msgstr[0] "实验室定位器"
+
+#. ~ Description for {'str': 'Laboratory Locator'}
+#: .\items.json
+msgid ""
+"This strange metaphysical artifact will empower the island and unlock a "
+"permanent upgrade. Activate near the Heart of the Island to unlock Lab "
+"Starts: Begin expeditions in underground science labs. Requires a Labs "
+"Catalyst each time."
+msgstr "这件奇异的形而上遗物将增强岛屿力量并解锁永久升级。在岛屿之心附近激活以解锁实验室起点：开始在地下科学实验室进行远征。每次需要实验室催化剂。"
+
+#: .\items.json
+msgid "Higher Viewpoint"
+msgid_plural "Higher Viewpoints"
+msgstr[0] "更高视点"
+
+#. ~ Description for {'str': 'Higher Viewpoint'}
+#: .\items.json
+msgid ""
+"This strange metaphysical artifact will empower the island and unlock a "
+"permanent upgrade. Activate near the Heart of the Island to unlock Scouting "
+"Clairvoyance I: See everything near you for 20 seconds when beginning an "
+"expedition."
+msgstr "这件奇异的形而上遗物将增强岛屿力量并解锁永久升级。在岛屿之心附近激活以解锁侦察透视 I：开始远征时，20秒内看清周围一切。"
+
+#: .\items.json
+msgid "All-Seeing Effigy"
+msgid_plural "All-Seeing Effigy"
+msgstr[0] "全视雕像"
+
+#. ~ Description for {'str_sp': 'All-Seeing Effigy'}
+#: .\items.json
+msgid ""
+"This strange metaphysical artifact will empower the island and unlock a "
+"permanent upgrade. Activate near the Heart of the Island to unlock Scouting "
+"Clairvoyance II: See everything near you for 60 seconds when beginning an "
+"expedition."
+msgstr "这件奇异的形而上遗物将增强岛屿力量并解锁永久升级。在岛屿之心附近激活以解锁侦察透视 II：开始远征时，60秒内看清周围一切。"
+
+#: .\items.json
+msgid "Entry-level Contract"
+msgid_plural "Entry-level Contracts"
+msgstr[0] "入门级契约"
+
+#. ~ Description for {'str': 'Entry-level Contract'}
+#: .\items.json
+msgid ""
+"A contract signed in ink, showing the holder's will to fight. Activate near "
+"the Heart of the Island to unlock Expedition Missions: Every expedition now "
+"offers 1 randomly assigned bonus mission, which rewards warp shards on "
+"completion."
+msgstr "一份用墨水签署的契约，彰显持有者的战斗意志。在岛屿之心附近激活以解锁远征任务：每次远征现在提供1个随机分配的额外任务，完成后奖励跃迁碎片。"
+
+#: .\items.json
+msgid "Survivor's Contract"
+msgid_plural "Survivor's Contracts"
+msgstr[0] "幸存者契约"
+
+#. ~ Description for {'str': "Survivor's Contract"}
+#: .\items.json
+msgid ""
+"A contract signed in zombie blood, proving the holder to be a true survivor."
+" Activate near the Heart of the Island to unlock Two Missions: Every "
+"expedition now offers 2 randomly assigned bonus missions."
+msgstr "一份用僵尸血签署的契约，证明持有者是真正的幸存者。在岛屿之心附近激活以解锁双重任务：每次远征现在提供2个随机分配的额外任务。"
+
+#: .\items.json
+msgid "Mercenary's Contract"
+msgid_plural "Mercenary's Contracts"
+msgstr[0] "佣兵契约"
+
+#. ~ Description for {'str': "Mercenary's Contract"}
+#: .\items.json
+msgid ""
+"A contract lined with gunpowder and gold. Whoever signed this must be a "
+"seasoned operator. Activate near the Heart of the Island to unlock Three "
+"Missions: Every expedition now offers 3 randomly assigned bonus missions."
+msgstr "一份镶着火药与金边的契约。签署者必是经验丰富的作战者。在岛屿之心附近激活以解锁三重任务：每次远征现在提供3个随机分配的额外任务。"
+
+#: .\items.json
+msgid "Artisan's Contract"
+msgid_plural "Artisan's Contracts"
+msgstr[0] "工匠契约"
+
+#. ~ Description for {'str': "Artisan's Contract"}
+#: .\items.json
+msgid ""
+"A finely-crafted contract, demonstrating that the holder can create as well "
+"as destroy. Activate near the Heart of the Island to unlock Four Missions: "
+"Every expedition now offers 4 randomly assigned bonus missions."
+msgstr "一份精工细作的契约，证明持有者既能创造也能毁灭。在岛屿之心附近激活以解锁四重任务：每次远征现在提供4个随机分配的额外任务。"
+
+#: .\items.json
+msgid "Post-human's Contract"
+msgid_plural "Post-human's Contracts"
+msgstr[0] "后人类契约"
+
+#. ~ Description for {'str': "Post-human's Contract"}
+#: .\items.json
+msgid ""
+"A contract built from futuristic materials, proving that the holder is "
+"beyond human. Activate near the Heart of the Island to unlock Five Missions:"
+" Every expedition now offers 5 randomly assigned bonus missions."
+msgstr "一份用未来材料打造的契约，证明持有者已超越凡人。在岛屿之心附近激活以解锁五重任务：每次远征现在提供5个随机分配的额外任务。"
+
+#: .\items.json
+msgid "Ordinator's Sigil"
+msgid_plural "Ordinator's Sigils"
+msgstr[0] "统御者印记"
+
+#. ~ Description for {'str': "Ordinator's Sigil"}
+#: .\items.json
+msgid ""
+"This strange metaphysical artifact will empower the island and unlock a "
+"permanent upgrade. Activate near the Heart of the Island to unlock Harder "
+"Missions: More challenging bonus missions with greater rewards become "
+"available."
+msgstr ""
+"这件奇异的形而上学神器将增强岛屿的力量并解锁一项永久升级。在岛屿之心附近激活以解锁困难任务：更具挑战性的奖励任务将变得可用，并提供更丰厚的回报。"
+
+#: .\items.json
+msgid "Will of the Island"
+msgid_plural "Will of the Islands"
+msgstr[0] "岛屿之意志"
+
+#. ~ Description for {'str': 'Will of the Island'}
+#: .\items.json
+msgid ""
+"This strange metaphysical artifact will empower the island and unlock a "
+"permanent upgrade. Activate near the Heart of the Island to unlock Hardest "
+"Missions: The most dangerous bonus missions with the greatest rewards become"
+" available."
+msgstr ""
+"这件奇异的形而上学神器将增强岛屿的力量并解锁一项永久升级。在岛屿之心附近激活以解锁极难任务：最危险的奖励任务将变得可用，并提供最丰厚的回报。"
+
+#: .\items.json
+msgid "Vengeance of the Island"
+msgid_plural "Vengeance of the Islands"
+msgstr[0] "岛屿之复仇"
+
+#. ~ Description for {'str': 'Vengeance of the Island'}
+#: .\items.json
+msgid ""
+"This strange metaphysical artifact will empower the island and unlock a "
+"permanent upgrade. Activate near the Heart of the Island to unlock Slaughter"
+" Missions: A special mission will be assigned during each expedition, "
+"rewarding warp shards for killing specific types of enemies."
+msgstr ""
+"这件奇异的形而上学神器将增强岛屿的力量并解锁一项永久升级。在岛屿之心附近激活以解锁屠杀任务：每次远征期间将分配一项特殊任务，通过击杀特定类型的敌人来奖励扭曲碎片。"
+
+#: .\items.json
+msgid "Inverted Gravity Bubble"
+msgid_plural "Inverted Gravity Bubbles"
+msgstr[0] "反重力气泡"
+
+#. ~ Description for {'str': 'Inverted Gravity Bubble'}
+#: .\items.json
+msgid ""
+"This strange metaphysical artifact will empower the island and unlock a "
+"permanent upgrade. Activate near the Heart of the Island to unlock Landing "
+"Flight: While under the warpcloak effect on landing, you gain the power of "
+"flight for 60 seconds."
+msgstr ""
+"这件奇异的形而上学神器将增强岛屿的力量并解锁一项永久升级。在岛屿之心附近激活以解锁着陆飞行：在着陆时处于扭曲斗篷效果下时，你将获得60秒的飞行能力。"
+
+#: .\items.json
+msgid "quickheal pill"
+msgid_plural "quickheal pills"
+msgstr[0] "速愈药丸"
+
+#. ~ Description for {'str': 'quickheal pill'}
+#: .\items.json
+msgid ""
+"This pseudomagical pill will heal all your damaged parts, but only if "
+"consumed while on your sanctuary island. No reason to bring this into the "
+"field."
+msgstr "这颗伪魔法药丸将治愈你所有受损的部位，但仅限于在庇护岛屿上服用时生效。没有理由将其带入野外。"
+
+#: .\items.json
+msgid "earthbound pill"
+msgid_plural "earthbound pills"
+msgstr[0] "地缚药丸"
+
+#. ~ Description for {'str': 'earthbound pill'}
+#: .\items.json
+msgid ""
+"This pseudomagical pill extends the amount of time you can stay earthside by"
+" 4 pulses, or about 50% of a normal trip. They're precious, but should help "
+"buy time for a difficult extract."
+msgstr "这颗伪魔法药丸将延长你在地面停留的时间4个脉冲，大约相当于正常行程的50%。它们很珍贵，但应有助于为困难的撤离争取时间。"
+
+#: .\items.json
+msgid "homeward mote"
+msgid_plural "homeward motes"
+msgstr[0] "归乡微尘"
+
+#. ~ Description for {'str': 'homeward mote'}
+#: .\items.json
+msgid ""
+"Though visibly little more than a glowing dustbunny, this strange ethereal mote of warp essence reveals, on closer inspection, something more. A tiny, twisting, half-visible thread of shimmering bluish-purple trails away into the sky and far out of sight, unimpeded by any obstacles.\n"
+"\n"
+"Taking this rare and valuable artifact with you on an expedition is essentially buying life insurance. If you die with this mote in your inventory, you will instead be restored to full health and brought home WITH all items and equipment carried. But this effect will only last for a single expedition. Even if you extract safely, any and all motes carried on your person when you return home will be DESTROYED."
+msgstr ""
+"尽管看起来不过是一团发光的尘埃，但这缕奇异的以太扭曲精华微尘在仔细观察下揭示了更多。一条微小、扭曲、半隐半现的蓝紫色闪烁细线蜿蜒伸向天空，消失在视线之外，不受任何障碍物阻碍。\n"
+"\n"
+"携带这件稀有而珍贵的文物进行远征，本质上就是购买人寿保险。如果你在持有此微尘时死亡，你将恢复全部生命值并被带回家，同时保留所有携带的物品和装备。但此效果仅持续单次远征。即使你安全撤离，当你返回家园时，身上携带的任何微尘都将被摧毁。"
+
+#: .\items.json
+msgid "skyward beacon"
+msgid_plural "skyward beacons"
+msgstr[0] "升空信标"
+
+#. ~ Description for {'str': 'skyward beacon'}
+#: .\items.json
+msgid ""
+"This smooth purplish sphere seems like it wants to rise right out of your "
+"hand. If you activate it, you will return directly to the island with "
+"everything you are carrying."
+msgstr "这颗光滑的紫色球体似乎想从你手中直接升起。如果你激活它，你将直接返回岛屿，并携带所有物品。"
+
+#: .\items.json
+msgid "warp status crystal"
+msgid_plural "warp status crystals"
+msgstr[0] "扭曲状态水晶"
+
+#. ~ Description for {'str': 'warp status crystal'}
+#: .\items.json
+msgid ""
+"A small crystalline orb that pulses with a faint inner light. When "
+"activated, it displays detailed information about your current warp status, "
+"including pulse count, time remaining, and the effects that will occur at "
+"each stage of warp sickness."
+msgstr "一颗小型水晶球，内部闪烁着微弱的光芒。激活时，它会显示你当前扭曲状态的详细信息，包括脉冲计数、剩余时间以及扭曲病每个阶段将发生的效果。"
+
+#: .\items.json
+msgid "warped animal teleporter"
+msgid_plural "warped animal teleporters"
+msgstr[0] "扭曲动物传送器"
+
+#. ~ Description for {'str': 'warped animal teleporter'}
+#: .\items.json
+msgid ""
+"A hand-sized device with a shimmering portal at its core. Unlike a normal "
+"pet carrier, this device doesn't store the animal inside - it warps them "
+"directly to your sanctuary island, bypassing any weight limitations. "
+"Activate near a friendly creature to send it home. The creature will appear "
+"at your island when you return from your expedition."
+msgstr ""
+"一个手掌大小的装置，核心有一个闪烁的传送门。与普通的宠物携带器不同，此装置不将动物存储在内——它直接将它们扭曲传送到你的庇护岛屿，绕过任何重量限制。在友好生物附近激活以将其送回家。该生物将在你从远征返回时出现在你的岛屿上。"
+
+#: .\items.json
+msgid "warp home focus"
+msgid_plural "warp home foci"
+msgstr[0] "扭曲归家焦点"
+
+#. ~ Description for {'str': 'warp home focus', 'str_pl': 'warp home foci'}
+#: .\items.json
+msgid ""
+"A small crystalline focus imbued with the power of warp. When activated during an expedition, it can teleport you directly back to your sanctuary island. This item is NOT consumed on use.\n"
+"\n"
+"Behavior depends on your difficulty settings:\n"
+"- Free mode: Works instantly\n"
+"- Shard mode: Costs 1 warp shard, cannot use near enemies\n"
+"- Other modes: Does not function (use Skyward Beacon or find extraction)"
+msgstr ""
+"一枚蕴含传送力量的小型水晶焦点。在远征期间激活时，可直接将你传送回庇护岛屿。此物品使用后不会被消耗。\n"
+"\n"
+"具体效果取决于你的难度设置：\n"
+"- 自由模式：立即生效\n"
+"- 碎片模式：消耗1个传送碎片，无法在敌人附近使用\n"
+"- 其他模式：无法使用（请使用天界信标或寻找撤离点）"
+
+#: .\items.json
+msgid "healing salve"
+msgid_plural "healing salves"
+msgstr[0] "治疗药膏"
+
+#. ~ Description for {'str': 'healing salve'}
+#: .\items.json
+msgid ""
+"A lump of purplish goo, smooth but yielding, sculptable like clay. If you "
+"rub it on a wound, it will immediately heal some of the damage you have "
+"taken, but the air of the lower world destabilizes its structure and it will"
+" only last a single trip to the surface."
+msgstr ""
+"一团紫色的粘稠物，触感光滑柔软，可像黏土般塑形。若将其涂抹在伤口上，能立即治愈部分伤害，但下界空气会破坏其结构稳定性，仅能维持单次地表之旅。"
+
+#: .\items.json
+msgid "warp raft token"
+msgid_plural "warp raft tokens"
+msgstr[0] "传送筏令牌"
+
+#. ~ Use action unfold_msg for {'str': 'warp raft token'}.
+#: .\items.json
+msgid ""
+"The token dissolves into swirling energy that coalesces into a shimmering "
+"raft!"
+msgstr "令牌溶解为旋转的能量，汇聚成闪烁发光的木筏！"
+
+#. ~ Description for {'str': 'warp raft token'}
+#: .\items.json
+msgid ""
+"A small token that pulses with aquatic energy. When activated, it unfolds "
+"into a small, slow raft."
+msgstr "一枚跃动着水之能量的小型令牌。激活时会展开为缓慢移动的小型木筏。"
+
+#: .\items.json
+msgid "wood-floor tokens"
+msgid_plural "wood-floor tokens"
+msgstr[0] "木地板令牌"
+
+#. ~ Description for {'str_sp': 'wood-floor tokens'}
+#: .\items.json
+msgid ""
+"A group of small squares of wood, smooth and polished. You can use them to "
+"transform a section of flooring into interlocking wooden planks."
+msgstr "一组光滑抛光的小木块。可用它们将部分地板转化为咬合式木板地面。"
+
+#: .\items.json
+msgid "flagstone tokens"
+msgid_plural "flagstone tokens"
+msgstr[0] "石板令牌"
+
+#. ~ Description for {'str_sp': 'flagstone tokens'}
+#: .\items.json
+msgid ""
+"A group of small stone stones, rough to the touch. You can use them to "
+"transform a section of flooring into mortared flagstones."
+msgstr "一组触感粗糙的小石块。可用它们将部分地板转化为砂浆铺设的石板地面。"
+
+#: .\items.json
+msgid "sand tokens"
+msgid_plural "sand tokens"
+msgstr[0] "沙地令牌"
+
+#. ~ Description for {'str_sp': 'sand tokens'}
+#: .\items.json
+msgid ""
+"A group of small yellow stones, gritty to the touch yet seemingly nothing "
+"ever rubs off. You can use them to transform a section of flooring into fine"
+" sand."
+msgstr "一组触感粗粝的黄色小石块，表面似乎永不磨损。可用它们将部分地板转化为细沙地面。"
+
+#: .\items.json
+msgid "Personal Sunblock"
+msgid_plural "Personal Sunblocks"
+msgstr[0] "个人防晒屏障"
+
+#. ~ Description for {'str': 'Personal Sunblock'}
+#: .\items.json
+msgid "The island is protecting you against the sun as long as you are on it."
+msgstr "只要你身处岛上，岛屿就会为你抵御阳光伤害。"
+
+#: .\items.json
+msgid "Personal Windblock"
+msgid_plural "Personal Windblocks"
+msgstr[0] "个人防风屏障"
+
+#. ~ Description for {'str': 'Personal Windblock'}
+#: .\items.json
+msgid ""
+"The island is protecting you against the winds as long as you are on it."
+msgstr "只要你身处岛上，岛屿就会为你抵御强风影响。"
+
+#: .\iuse.json
+msgid "Initiate warp expedition"
+msgstr "开启传送远征"
+
+#: .\iuse.json
+msgid "Return home"
+msgstr "返回家园"
+
+#: .\iuse.json
+msgid "Access Heart of the Island"
+msgstr "进入岛屿核心"
+
+#: .\iuse.json
+msgid "Activate Proof of Determination"
+msgstr "激活决心证明"
+
+#: .\iuse.json
+msgid "Activate Proof of Mastery"
+msgstr "激活大师证明"
+
+#: .\iuse.json
+msgid "Unlock Stability I"
+msgstr "解锁稳定性 I"
+
+#: .\iuse.json
+msgid "Unlock Stability II"
+msgstr "解锁稳定性 II"
+
+#: .\iuse.json
+msgid "Unlock Stability III"
+msgstr "解锁稳定性 III"
+
+#: .\iuse.json
+msgid "Unlock Scouting I"
+msgstr "解锁侦察 I"
+
+#: .\iuse.json
+msgid "Unlock Scouting II"
+msgstr "解锁侦察 II"
+
+#: .\iuse.json
+msgid "Unlock Multiple Exits"
+msgstr "解锁多重出口"
+
+#: .\iuse.json
+msgid "Unlock Large Expeditions"
+msgstr "解锁大型远征"
+
+#: .\iuse.json
+msgid "Unlock Extended Expeditions"
+msgstr "解锁延长远征"
+
+#: .\iuse.json
+msgid "Unlock Basement Starts"
+msgstr "解锁地下室开局"
+
+#: .\iuse.json
+msgid "Unlock Rooftop Starts"
+msgstr "解锁屋顶开局"
+
+#: .\iuse.json
+msgid "Unlock Lab Starts"
+msgstr "解锁实验室开局"
+
+#: .\iuse.json
+msgid "Heal all wounds"
+msgstr "治愈所有伤口"
+
+#: .\iuse.json
+msgid "Extend expedition time"
+msgstr "延长远征时间"
+
+#: .\iuse.json
+msgid "Return to the sky"
+msgstr "返回天空"
+
+#: .\iuse.json
+msgid "Check warp status"
+msgstr "检查传送状态"
+
+#: .\iuse.json
+msgid "Warp creature home"
+msgstr "传送生物回家"
+
+#: .\iuse.json
+msgid "Cast Warp Home"
+msgstr "施放传送回家"
+
+#: .\iuse.json
+msgid "Unlock Scouting Clairvoyance I"
+msgstr "解锁侦察透视 I"
+
+#: .\iuse.json
+msgid "Unlock Scouting Clairvoyance II"
+msgstr "解锁侦察透视 II"
+
+#: .\iuse.json
+msgid "Unlock Bonus Missions I"
+msgstr "解锁奖励任务 I"
+
+#: .\iuse.json
+msgid "Unlock Bonus Missions II"
+msgstr "解锁奖励任务 II"
+
+#: .\iuse.json
+msgid "Unlock Bonus Missions III"
+msgstr "解锁奖励任务 III"
+
+#: .\iuse.json
+msgid "Unlock Bonus Missions IV"
+msgstr "解锁奖励任务 IV"
+
+#: .\iuse.json
+msgid "Unlock Bonus Missions V"
+msgstr "解锁奖励任务 V"
+
+#: .\iuse.json
+msgid "Unlock Harder Missions"
+msgstr "解锁困难任务"
+
+#: .\iuse.json
+msgid "Unlock Hardest Missions"
+msgstr "解锁极难任务"
+
+#: .\iuse.json
+msgid "Unlock Slaughter Missions"
+msgstr "解锁屠杀任务"
+
+#: .\iuse.json
+msgid "Unlock Landing Flight"
+msgstr "解锁着陆飞行"
+
+#: .\iuse.json
+msgid "Imprint on Autodoc"
+msgstr "在自动医疗机上刻印"
+
+#: .\iuse.json
+msgid "Imprint on Autodoc Couch"
+msgstr "在自动医疗机躺椅上刻印"
+
+#: .\iuse.json
+msgid "Imprint on Nanofabricator"
+msgstr "在纳米制造机上刻印"
+
+#: .\iuse.json
+msgid "Imprint on Nanofabricator Control Panel"
+msgstr "在纳米制造机控制面板上刻印"
+
+#: .\iuse.json
+msgid "Imprint on CVD Machine"
+msgstr "在CVD机器上刻印"
+
+#: .\iuse.json
+msgid "Imprint on CVD Control Panel"
+msgstr "在CVD控制面板上刻印"
+
+#: .\iuse.lua
+#, c-format
+msgid ""
+"You need to be standing next to a working %s to imprint this copyplate."
+msgstr "你需要站在正常工作的%s旁边才能刻印此复制板。"
+
+#: .\iuse.lua
+#, c-format
+msgid "The copyplate hums and glows as it absorbs the %s's schematics!"
+msgstr "复制板嗡嗡作响并发光，吸收了%s的图纸！"
+
+#: .\iuse.lua
+#, c-format
+msgid "You now have an activated %s copyplate."
+msgstr "你现在拥有一个已激活的%s复制板。"
+
+#: .\main.lua
+msgid "The quickheal pill only works on your sanctuary island."
+msgstr "快速治疗药丸仅在你的庇护岛屿上有效。"
+
+#: .\main.lua
+msgid "A warm sensation washes over you as your wounds heal."
+msgstr "一股暖流涌遍全身，你的伤口正在愈合。"
+
+#: .\main.lua
+msgid ""
+"You're not on an expedition. Save this for when you need more time "
+"earthside."
+msgstr "你并非身处远征中。将此留待你需要更多地面时间时使用。"
+
+#: .\main.lua
+msgid ""
+"The pill dissolves on your tongue. You feel the warp's grip on you loosen. "
+"(+4 pulses of time)"
+msgstr "药丸在你舌间溶解。你感到扭曲对你的掌控松动了。（+4个时间脉冲）"
+
+#: .\main.lua
+msgid "The focus pulses weakly but cannot establish a connection."
+msgstr "聚焦器微弱脉动但无法建立连接。"
+
+#: .\main.lua
+msgid "Your difficulty settings require a Skyward Beacon or extraction point."
+msgstr "你的难度设置需要天界信标或撤离点。"
+
+#: .\main.lua
+msgid "You're already home. The focus has no effect here."
+msgstr "你已在家园。聚焦器在此处无效。"
+
+#: .\main.lua
+msgid ""
+"Hostile creatures nearby disrupt the focus's energy. You cannot use it here!"
+msgstr "附近的敌对生物扰乱了聚焦器的能量。你无法在此处使用它！"
+
+#: .\main.lua
+msgid "The focus requires a warp shard to activate!"
+msgstr "聚焦器需要扭曲碎片来激活！"
+
+#: .\main.lua
+msgid ""
+"The focus flares with brilliant light. You feel yourself being pulled "
+"skyward..."
+msgstr "聚焦器迸发出耀眼光芒。你感到自己正被拉向天际……"
+
+#: .\main.lua
+msgid ""
+"The beacon flickers weakly but nothing happens. Emergency returns are "
+"disabled."
+msgstr "信标微弱闪烁但无事发生。紧急返回功能已禁用。"
+
+#: .\main.lua
+msgid "You must find an extraction point (return obelisk) to escape."
+msgstr "你必须找到撤离点（返回方尖碑）才能逃脱。"
+
+#: .\main.lua
+msgid "You're already home. The beacon has no effect here."
+msgstr "你已在家园。信标在此处无效。"
+
+#: .\main.lua
+msgid ""
+"The beacon flares with brilliant light. You feel yourself being pulled "
+"skyward..."
+msgstr "信标迸发出耀眼光芒。你感到自己正被拉向天际……"
+
+#: .\main.lua
+msgid "Warp Status Crystal"
+msgstr "扭曲状态水晶"
+
+#: .\main.lua
+#, c-format
+msgid ""
+"Grace Period: %d pulses\n"
+"\n"
+msgstr ""
+"宽限期：%d个脉冲\n"
+"\n"
+
+#: .\main.lua
+#, c-format
+msgid "Current Pulse: %d\n"
+msgstr "当前脉冲：%d\n"
+
+#: .\main.lua
+#, c-format
+msgid "Pulse Interval: %d minutes\n"
+msgstr "脉冲间隔：%d分钟\n"
+
+#: .\main.lua
+#, c-format
+msgid "Difficulty: %s\n"
+msgstr "难度：%s\n"
+
+#: .\main.lua
+#, c-format
+msgid "Current Expedition: %s\n"
+msgstr "当前远征：%s\n"
+
+#: .\main.lua
+#, c-format
+msgid "Pulses until disintegration: %d"
+msgstr "距离崩解剩余脉冲：%d"
+
+#: .\main.lua
+#, c-format
+msgid "STATUS: %s (Intensity %d/%d)\n"
+msgstr "状态：%s（强度 %d/%d）\n"
+
+#: .\main.lua
+#, c-format
+msgid "Time until sickness begins: ~%d minutes"
+msgstr "距离疾病发作时间：约%d分钟"
+
+#: .\main.lua .\warp_sickness.lua
+#, c-format
+msgid "Safe pulses remaining: %d\n"
+msgstr "剩余安全脉冲次数：%d\n"
+
+#: .\main.lua
+msgid "STATUS: STABLE\n"
+msgstr "状态：稳定\n"
+
+#: .\main.lua
+msgid "Stage 1: Warp Stability"
+msgstr "阶段一：跃迁稳定"
+
+#: .\main.lua
+msgid "Grace period. No effects. You feel fine."
+msgstr "宽限期。无不良影响。你感觉良好。"
+
+#: .\main.lua
+msgid "Stage 2: Warp Sickness"
+msgstr "阶段二：跃迁不适"
+
+#: .\main.lua
+msgid "Intensity 1. -2 to all stats. Mild discomfort."
+msgstr "强度1级。全属性-2。轻微不适。"
+
+#: .\main.lua
+msgid "Stage 3: Warp Nausea"
+msgstr "阶段三：跃迁恶心"
+
+#: .\main.lua
+msgid "Intensity 2. -4 to all stats. Growing pain."
+msgstr "强度2级。全属性-4。痛感加剧。"
+
+#: .\main.lua
+msgid "Stage 4: Warp Debilitation"
+msgstr "阶段四：跃迁衰弱"
+
+#: .\main.lua
+msgid "Intensity 3. -6 to all stats. Severely impaired."
+msgstr "强度3级。全属性-6。严重受损。"
+
+#: .\main.lua
+msgid "Stage 5: Warp Necrosis"
+msgstr "阶段五：跃迁坏死"
+
+#: .\main.lua
+msgid "Intensity 4. -8 to all stats. Body failing."
+msgstr "强度4级。全属性-8。身体机能衰竭。"
+
+#: .\main.lua
+msgid "Stage 6: Warp Disintegration!"
+msgstr "阶段六：跃迁崩解！"
+
+#: .\main.lua
+msgid "Intensity 5+. -10+ to stats. Constant damage. DEATH IMMINENT."
+msgstr "强度5级以上。全属性-10+。持续受到伤害。死亡迫近。"
+
+#: .\main.lua
+msgid ""
+"You are HOME SAFE on your sanctuary island.\n"
+"\n"
+"The warp has no hold on you here."
+msgstr ""
+"你已安全返回家园岛屿。\n"
+"\n"
+"跃迁效应在此处对你无效。"
+
+#: .\main.lua
+msgid "You need to set your home location first by using the warp obelisk."
+msgstr "你需要先使用跃迁方尖碑设置家园位置。"
+
+#: .\main.lua
+msgid "Select a creature to warp home:"
+msgstr "选择要传送回家的生物："
+
+#: .\main.lua .\teleport.lua
+msgid "Cancelled."
+msgstr "已取消。"
+
+#: .\main.lua
+msgid "There's no creature there."
+msgstr "该处没有生物。"
+
+#: .\main.lua
+#, c-format
+msgid "The %s avoids your attempt to warp it!"
+msgstr "%s 避开了你的传送尝试！"
+
+#: .\main.lua
+#, c-format
+msgid "The %s vanishes in a shimmer of light, warped to your island!"
+msgstr "%s 在微光中消失，被传送到了你的岛屿！"
+
+#: .\main.lua
+#, c-format
+msgid "Animals queued for arrival: %d"
+msgstr "等待抵达的动物：%d"
+
+#: .\main.lua
+msgid "Sky Islands PoC loaded! Use warp remote to start."
+msgstr "天空岛屿概念验证已加载！使用传送遥控器开始。"
+
+#: .\main.lua
+msgid "Resuming expedition..."
+msgstr "继续远征中..."
+
+#: .\main.lua
+msgid "The homeward mote flares brilliantly, yanking you from death's grasp!"
+msgstr "归乡微粒骤然闪耀，将你从死亡边缘拽回！"
+
+#: .\main.lua
+msgid "You arrive home alive, with all your belongings intact."
+msgstr "你活着回到了家，所有物品完好无损。"
+
+#: .\mapgen_sky_island.json
+msgid "sky island"
+msgstr "天空岛屿"
+
+#: .\missions.json
+msgid "RAID: Reach the exit portal!"
+msgstr "突袭：抵达出口传送门！"
+
+#. ~ Description for mission '{'str': 'RAID: Reach the exit portal!'}'
+#: .\missions.json
+msgid ""
+"If you want to get home with your stuff, you'll need to reach the nearby "
+"exit portal. It's the only thing that can bring you back to your sanctuary "
+"island in one piece."
+msgstr "若想带着物品回家，你需要抵达附近的出口传送门。这是唯一能让你完好返回庇护岛屿的途径。"
+
+#: .\missions.json
+msgid "RAID: Kill 10 Zombies"
+msgstr "突袭：击杀 10 只僵尸"
+
+#. ~ Description for mission '{'str': 'RAID: Kill 10 Zombies'}'
+#: .\missions.json
+msgid ""
+"Zombies have absorbed latent energies which must be released. Kill at least "
+"10 zombified creatures before returning to your sanctuary."
+msgstr "僵尸吸收了必须释放的潜在能量。在返回庇护所前至少击杀 10 只僵尸化生物。"
+
+#: .\missions.json
+msgid "RAID: Kill 50 Zombies"
+msgstr "突袭：击杀 50 只僵尸"
+
+#. ~ Description for mission '{'str': 'RAID: Kill 50 Zombies'}'
+#: .\missions.json
+msgid ""
+"Zombies have absorbed latent energies which must be released. Kill at least "
+"50 zombified creatures before returning to your sanctuary."
+msgstr "僵尸吸收了必须释放的潜在能量。在返回庇护所前至少击杀 50 只僵尸化生物。"
+
+#: .\missions.json
+msgid "RAID: Kill 100 Zombies"
+msgstr "突袭：击杀 100 只僵尸"
+
+#. ~ Description for mission '{'str': 'RAID: Kill 100 Zombies'}'
+#: .\missions.json
+msgid ""
+"Zombies have absorbed latent energies which must be released. Kill at least "
+"100 zombified creatures before returning to your sanctuary."
+msgstr "僵尸吸收了必须释放的潜在能量。在返回庇护所前至少击杀 100 只僵尸化生物。"
+
+#: .\missions.json
+msgid "RAID: Kill a Mi-Go"
+msgstr "突袭：击杀一只米-戈"
+
+#. ~ Description for mission '{'str': 'RAID: Kill a Mi-Go'}'
+#: .\missions.json
+msgid ""
+"The mi-go have absorbed latent energies which must be released. Kill at "
+"least one mi-go creature before returning to your sanctuary."
+msgstr "米-戈吸收了必须释放的潜在能量。在返回庇护所前至少击杀一只米-戈生物。"
+
+#: .\missions.json
+msgid "RAID: Kill 3 Nether Creatures"
+msgstr "突袭：击杀 3 只下界生物"
+
+#. ~ Description for mission '{'str': 'RAID: Kill 3 Nether Creatures'}'
+#: .\missions.json
+msgid ""
+"A rift to another dimension has drained latent energies which must be "
+"released. Kill at least 3 nether-born creatures before returning to your "
+"sanctuary."
+msgstr "通往其他维度的裂隙耗尽了必须释放的潜在能量。在返回庇护所前至少击杀 3 只下界原生生物。"
+
+#: .\missions.json
+msgid "RAID: Kill 5 Birds"
+msgstr "突袭任务：击杀5只鸟类"
+
+#. ~ Description for mission '{'str': 'RAID: Kill 5 Birds'}'
+#: .\missions.json
+msgid ""
+"Even the local wildlife has started absorbing latent warp energy. Kill at "
+"least 5 non-zombie birds before returning to your sanctuary."
+msgstr "连当地的野生动物也开始吸收潜在的扭曲能量。在返回你的避难所之前，至少击杀5只非僵尸鸟类。"
+
+#: .\missions.json
+msgid "RAID: Kill 5 Mammals"
+msgstr "突袭任务：击杀5只哺乳动物"
+
+#. ~ Description for mission '{'str': 'RAID: Kill 5 Mammals'}'
+#: .\missions.json
+msgid ""
+"Even the local wildlife has started absorbing latent warp energy. Kill at "
+"least 5 non-zombie mammals before returning to your sanctuary."
+msgstr "连当地的野生动物也开始吸收潜在的扭曲能量。在返回你的避难所之前，至少击杀5只非僵尸哺乳动物。"
+
+#: .\missions.json
+msgid "RAID: Find the warp shards!"
+msgstr "突袭任务：寻找扭曲碎片！"
+
+#. ~ Description for mission '{'str': 'RAID: Find the warp shards!'}'
+#: .\missions.json
+msgid ""
+"A very small cluster of warp energy has left shards behind at this location."
+" All you need to do is find and retrieve them. There may be threats nearby, "
+"but unlike most tasks, no special guards are on-site. A minimal reward, but "
+"little risk."
+msgstr "一小簇扭曲能量在此地留下了碎片。你只需要找到并回收它们。附近可能有威胁，但与大多数任务不同，现场没有特殊守卫。奖励微薄，但风险也小。"
+
+#: .\missions.json
+msgid "RAID: Clear zombie cluster"
+msgstr "突袭任务：清理僵尸群"
+
+#. ~ Description for mission '{'str': 'RAID: Clear zombie cluster'}'
+#: .\missions.json
+msgid ""
+"A handful of zombies are congregating at a location where warp resonance is "
+"high. Clear them out for a minimal reward of warp shards."
+msgstr "一小群僵尸聚集在扭曲共振强烈的地点。清理它们以获得微薄的扭曲碎片奖励。"
+
+#: .\missions.json
+msgid "RAID: Clear zombie horde"
+msgstr "突袭任务：清理僵尸潮"
+
+#. ~ Description for mission '{'str': 'RAID: Clear zombie horde'}'
+#: .\missions.json
+msgid ""
+"A horde of low level zombies are congregating at a location where warp "
+"resonance is high. Clear them out for a small reward of warp shards."
+msgstr "一大群低阶僵尸聚集在扭曲共振强烈的地点。清理它们以获得少量扭曲碎片奖励。"
+
+#: .\missions.json
+msgid "RAID: Clear evolved zombies"
+msgstr "突袭任务：清理进化僵尸"
+
+#. ~ Description for mission '{'str': 'RAID: Clear evolved zombies'}'
+#: .\missions.json
+msgid ""
+"A swarm of evolved zombies are congregating at a location where warp "
+"resonance is high. Clear them out for a medium reward of warp shards."
+msgstr "一群进化僵尸聚集在扭曲共振强烈的地点。清理它们以获得中等数量的扭曲碎片奖励。"
+
+#: .\missions.json
+msgid "RAID: Clear evolved horde"
+msgstr "突袭任务：清理进化僵尸潮"
+
+#. ~ Description for mission '{'str': 'RAID: Clear evolved horde'}'
+#: .\missions.json
+msgid ""
+"A huge horde of evolved zombies are congregating at a location where warp "
+"resonance is high. Clear them out for a large reward of warp shards."
+msgstr "一大群进化僵尸聚集在扭曲共振强烈的地点。清理它们以获得大量扭曲碎片奖励。"
+
+#: .\missions.json
+msgid "RAID: Clear fearsome zombies"
+msgstr "突袭任务：清理恐怖僵尸"
+
+#. ~ Description for mission '{'str': 'RAID: Clear fearsome zombies'}'
+#: .\missions.json
+msgid ""
+"A swarm of rather powerful zombies are congregating at a location where warp"
+" resonance is high. Clear them out for a large reward of warp shards."
+msgstr "一群相当强大的僵尸聚集在扭曲共振强烈的地点。清理它们以获得大量扭曲碎片奖励。"
+
+#: .\missions.json
+msgid "RAID: Clear elite zombies"
+msgstr "突袭任务：清理精英僵尸"
+
+#. ~ Description for mission '{'str': 'RAID: Clear elite zombies'}'
+#: .\missions.json
+msgid ""
+"A swarm of extremely dangerous zombies are congregating at a location where "
+"warp resonance is high. Clear them out for a very large reward of warp "
+"shards."
+msgstr "一群极其危险的僵尸聚集在扭曲共振强烈的地点。清理它们以获得非常大量的扭曲碎片奖励。"
+
+#: .\missions.json
+msgid "RAID: Kill zombie lord"
+msgstr "突袭任务：击杀僵尸领主"
+
+#. ~ Description for mission '{'str': 'RAID: Kill zombie lord'}'
+#: .\missions.json
+msgid ""
+"A single supremely powerful zombie has been found at a location where warp "
+"resonance is high. Destroy it for a very large reward of warp shards."
+msgstr "在扭曲共振强烈的地点发现了一个极其强大的僵尸。消灭它以获得非常大量的扭曲碎片奖励。"
+
+#: .\missions.json
+msgid "RAID: Kill zombie superteam"
+msgstr "突袭：消灭僵尸超级小队"
+
+#. ~ Description for mission '{'str': 'RAID: Kill zombie superteam'}'
+#: .\missions.json
+msgid ""
+"A team of supremely powerful zombies has been found at a location where warp"
+" resonance is high. Destroy it for a very large reward of warp shards."
+msgstr "在跃迁共振强烈的地点发现了一支极其强大的僵尸队伍。消灭它们可获得巨量跃迁碎片奖励。"
+
+#: .\missions.json
+msgid "RAID: Kill zombie leader + swarm"
+msgstr "突袭：消灭僵尸首领 + 集群"
+
+#. ~ Description for mission '{'str': 'RAID: Kill zombie leader + swarm'}'
+#: .\missions.json
+msgid ""
+"A supremely powerful zombie has been found at a location where warp "
+"resonance is high. Be warned that it will be accompanied by an elite swarm! "
+"Destroy them all for a huge reward of warp shards."
+msgstr "在跃迁共振强烈的地点发现了一只极其强大的僵尸。注意它将带领一支精英集群！消灭所有目标可获得大量跃迁碎片奖励。"
+
+#: .\missions.json
+msgid "RAID: Kill horde lord"
+msgstr "突袭：消灭尸群领主"
+
+#. ~ Description for mission '{'str': 'RAID: Kill horde lord'}'
+#: .\missions.json
+msgid ""
+"A supremely powerful zombie has been found at a location where warp "
+"resonance is high. Be warned that it will be accompanied by an massive horde"
+" of weaker zombies! Destroy them all for a huge reward of warp shards."
+msgstr "在跃迁共振强烈的地点发现了一只极其强大的僵尸。注意它将带领一大群较弱僵尸！消灭所有目标可获得大量跃迁碎片奖励。"
+
+#: .\missions.json
+msgid "RAID: Clear mi-go threat"
+msgstr "突袭：清除米-戈威胁"
+
+#. ~ Description for mission '{'str': 'RAID: Clear mi-go threat'}'
+#. ~ Description for mission '{'str': 'RAID: Kill mi-go overlord'}'
+#: .\missions.json
+msgid ""
+"A group of lethal mi-gos are draining a location where warp resonance is "
+"high. Destroy them all for a very large reward of warp shards."
+msgstr "一群致命的米-戈正在侵蚀跃迁共振强烈的地点。消灭它们可获得巨量跃迁碎片奖励。"
+
+#: .\missions.json
+msgid "RAID: Kill mi-go overlord"
+msgstr "突袭：消灭米-戈霸主"
+
+#: .\missions.lua
+#, c-format
+msgid "You completed a mission and were rewarded with %d warp shard%s."
+msgstr "你完成了一项任务，获得了 %d 个跃迁碎片%s。"
+
+#: .\missions.lua
+msgid "Another exit portal has also been detected!"
+msgstr "另一个出口传送门也被探测到了！"
+
+#: .\missions.lua
+msgid "Mission: Reach the exit portal!"
+msgstr "任务：抵达出口传送门！"
+
+#: .\missions.lua
+msgid "Find the warp shards"
+msgstr "寻找跃迁碎片"
+
+#: .\missions.lua
+msgid "Clear zombie cluster"
+msgstr "清除僵尸集群"
+
+#: .\missions.lua
+msgid "Clear zombie horde"
+msgstr "清除僵尸尸群"
+
+#: .\missions.lua
+msgid "Clear fearsome zombies"
+msgstr "清除恐怖僵尸"
+
+#: .\missions.lua
+msgid "Clear elite zombies"
+msgstr "清除精英僵尸"
+
+#: .\missions.lua
+msgid "Kill zombie lord"
+msgstr "消灭僵尸领主"
+
+#: .\missions.lua
+msgid "Clear mi-go threat"
+msgstr "清除米-戈威胁"
+
+#: .\missions.lua
+msgid "Clear evolved zombies"
+msgstr "清除进化僵尸"
+
+#: .\missions.lua
+msgid "Clear evolved horde"
+msgstr "清除进化尸群"
+
+#: .\missions.lua
+msgid "Kill zombie leader + swarm"
+msgstr "击杀僵尸首领 + 尸群"
+
+#: .\missions.lua
+msgid "Kill horde lord"
+msgstr "击杀尸群领主"
+
+#: .\missions.lua
+msgid "Kill zombie superteam"
+msgstr "击杀僵尸超级小队"
+
+#: .\missions.lua
+msgid "Kill mi-go overlord"
+msgstr "击杀米-戈霸主"
+
+#: .\missions.lua
+#, c-format
+msgid "Bonus Mission: %s!"
+msgstr "奖励任务：%s！"
+
+#: .\missions.lua
+msgid "Kill 10 Zombies"
+msgstr "击杀10个僵尸"
+
+#: .\missions.lua
+msgid "Kill 50 Zombies"
+msgstr "击杀50个僵尸"
+
+#: .\missions.lua
+msgid "Kill 100 Zombies"
+msgstr "击杀100个僵尸"
+
+#: .\missions.lua
+msgid "Kill 5 Birds"
+msgstr "击杀5只鸟类"
+
+#: .\missions.lua
+msgid "Kill 5 Mammals"
+msgstr "击杀5只哺乳动物"
+
+#: .\missions.lua
+msgid "Kill a Mi-Go"
+msgstr "击杀一只米-戈"
+
+#: .\missions.lua
+msgid "Kill 3 Nether Creatures"
+msgstr "击杀3只下界生物"
+
+#: .\missions.lua
+#, c-format
+msgid "Slaughter Mission: %s!"
+msgstr "屠杀任务：%s！"
+
+#: .\missions.lua
+#, c-format
+msgid "Mission failed: %s"
+msgstr "任务失败：%s"
+
+#: .\missions.lua
+#, c-format
+msgid "Mission completed: %s"
+msgstr "任务完成：%s"
+
+#: .\modinfo.json .\scenario.json
+msgid "Sky Island"
+msgstr "空岛"
+
+#. ~ Description for Sky Island
+#: .\modinfo.json
+msgid ""
+"Cataclysm BN port of the Sky Island mod. Raid-based gameplay inspired by "
+"Escape from Tarkov and Dark & Darker. This is a very early version!"
+msgstr "Cataclysm BN 版的空岛模组。受《逃离塔科夫》和《Dark & Darker》启发的突袭式玩法。这是非常早期的版本！"
+
+#: .\mutations.json
+msgid "Warp Flight"
+msgstr "扭曲飞行"
+
+#. ~ Description for {'str': 'Warp Flight'}
+#: .\mutations.json
+msgid ""
+"Warp energy grants you the power of flight. This is a temporary effect from "
+"landing protection."
+msgstr "扭曲能量赋予你飞行的力量。这是着陆保护带来的临时效果。"
+
+#. ~ Crafting recipes category name
+#: .\recipe_categories.json
+msgid "WARP"
+msgstr "传送"
+
+#. ~ Crafting recipes subcategory all
+#: .\recipe_categories.json
+msgid "ALL"
+msgstr "全部"
+
+#. ~ Crafting recipes subcategory of 'WARP' category
+#: .\recipe_categories.json
+msgid "MATERIALS"
+msgstr "材料"
+
+#. ~ Crafting recipes subcategory of 'WARP' category
+#: .\recipe_categories.json
+msgid "UPGRADES"
+msgstr "升级"
+
+#. ~ Crafting recipes subcategory of 'WARP' category
+#: .\recipe_categories.json
+msgid "PROOFS"
+msgstr "证明"
+
+#. ~ Name for scenario 'Sky Island Warper' for a male character
+#: .\scenario.json
+msgctxt "scenario_male"
+msgid "Sky Island Warper"
+msgstr "天空岛传送器"
+
+#. ~ Name for scenario 'Sky Island Warper' for a female character
+#: .\scenario.json
+msgctxt "scenario_female"
+msgid "Sky Island Warper"
+msgstr "天空岛传送器"
+
+#. ~ Description for scenario 'Sky Island Warper' for a male character.
+#: .\scenario.json
+msgctxt "scen_desc_male"
+msgid ""
+"As if the world ending wasn't enough, it seems some kind of extradimensional"
+" powers that be have taken an interest in you. You have been placed on a "
+"floating island high above the Earth, safe but isolated. Only by using the "
+"reality-bending powers of warp technology can you visit the world below in "
+"brief, randomly-targeted excursions. Venture down, gather supplies, and "
+"return with only what you can carry to upgrade your home base and your stash"
+" over time."
+msgstr ""
+"仿佛世界末日还不够，似乎某种跨维度的力量对你产生了兴趣。你被安置在地球上方高处的浮空岛上，安全但孤立。只有利用传送技术扭曲现实的力量，你才能通过短暂、随机定位的远行访问下方的世界。冒险下去，收集物资，并仅凭你能携带的物品返回，逐步升级你的家园基地和储备。"
+
+#. ~ Description for scenario 'Sky Island Warper' for a female character.
+#: .\scenario.json
+msgctxt "scen_desc_female"
+msgid ""
+"As if the world ending wasn't enough, it seems some kind of extradimensional"
+" powers that be have taken an interest in you. You have been placed on a "
+"floating island high above the Earth, safe but isolated. Only by using the "
+"reality-bending powers of warp technology can you visit the world below in "
+"brief, randomly-targeted excursions. Venture down, gather supplies, and "
+"return with only what you can carry to upgrade your home base and your stash"
+" over time."
+msgstr ""
+"仿佛世界末日还不够，似乎某种跨维度的力量对你产生了兴趣。你被安置在地球上方高处的浮空岛上，安全但孤立。只有利用传送技术扭曲现实的力量，你才能通过短暂、随机定位的远行访问下方的世界。冒险下去，收集物资，并仅凭你能携带的物品返回，逐步升级你的家园基地和储备。"
+
+#. ~ Starting location for scenario 'Sky Island Warper'.
+#: .\scenario.json
+msgctxt "start_name"
+msgid "Sky Island"
+msgstr "天空岛"
+
+#: .\teleport.lua
+#, c-format
+msgid "%d items from the red room were teleported home with you!"
+msgstr "%d件来自红房间的物品随你传送回家了！"
+
+#: .\teleport.lua
+msgid "Quick Expedition"
+msgstr "快速远征"
+
+#: .\teleport.lua
+msgid "Normal time limit (2 hours grace). Exits will be close together."
+msgstr "正常时间限制（2小时宽限期）。出口将紧密相邻。"
+
+#: .\teleport.lua
+msgid "Large Expedition"
+msgstr "大型远征"
+
+#: .\teleport.lua
+msgid "Double time limit (4 hours grace). Exits scattered over wider area."
+msgstr "双倍时间限制（4小时宽限期）。出口分散在更广区域。"
+
+#: .\teleport.lua
+msgid "Extended Expedition"
+msgstr "延长远征"
+
+#: .\teleport.lua
+msgid "Triple time limit (6 hours grace). Exits very far away."
+msgstr "三倍时间限制（6小时宽限期）。出口相距甚远。"
+
+#: .\teleport.lua
+msgid "Field"
+msgstr "田野"
+
+#: .\teleport.lua
+msgid ""
+"Arrive in a barren field. Usually wilderness, but could be an empty lot in "
+"town."
+msgstr "抵达一片荒芜田野。通常是荒野，但也可能是城镇中的空地。"
+
+#: .\teleport.lua
+msgid "Basement"
+msgstr "地下室"
+
+#: .\teleport.lua
+msgid "Arrive inside an underground basement. Usually suburbia."
+msgstr "抵达地下室内。通常是郊区。"
+
+#: .\teleport.lua
+msgid "Rooftop"
+msgstr "屋顶"
+
+#: .\teleport.lua
+msgid "Arrive on a building roof. Usually houses, one story up."
+msgstr "抵达建筑屋顶。通常是房屋，向上一个楼层。"
+
+#: .\teleport.lua
+msgid "Science Lab"
+msgstr "科学实验室"
+
+#: .\teleport.lua
+msgid ""
+"Arrive in a subterranean science lab. DANGEROUS! Costs 1 Labs Catalyst. You "
+"will be sealed inside - bring an exit strategy!"
+msgstr "抵达一处地下科学实验室。危险！消耗1个实验室催化剂。你将被封闭在内——请准备好撤离方案！"
+
+#: .\teleport.lua
+msgid "You feel reality shift around you..."
+msgstr "你感到周围的现实发生了扭曲……"
+
+#: .\teleport.lua
+msgid "Warp energy lifts you into the air!"
+msgstr "跃迁能量将你托举至空中！"
+
+#: .\teleport.lua
+msgid "Your feet touch the ground as the warp flight fades."
+msgstr "随着跃迁飞行的消退，你的双脚触及地面。"
+
+#: .\teleport.lua
+#, c-format
+msgid "%d island animal%s returned home safely!"
+msgstr "%d只岛屿动物%s安全返回家园！"
+
+#: .\teleport.lua
+#, c-format
+msgid "%d warped animal%s arrived at your island!"
+msgstr "%d只跃迁动物%s抵达了你的岛屿！"
+
+#: .\teleport.lua
+msgid "You are already on an expedition!"
+msgstr "你已在探险中！"
+
+#: .\teleport.lua
+msgid "ERROR: Could not determine position!"
+msgstr "错误：无法确定位置！"
+
+#: .\teleport.lua
+msgid "Select Expedition Type"
+msgstr "选择探险类型"
+
+#: .\teleport.lua
+#, c-format
+msgid "%s (reward: %d tokens)"
+msgstr "%s（奖励：%d代币）"
+
+#: .\teleport.lua
+msgid "Cancel"
+msgstr "取消"
+
+#: .\teleport.lua
+msgid "Warp cancelled."
+msgstr "跃迁已取消。"
+
+#: .\teleport.lua
+msgid "Select Starting Location"
+msgstr "选择起始位置"
+
+#: .\teleport.lua
+msgid " [No Catalyst]"
+msgstr " [无催化剂]"
+
+#: .\teleport.lua
+msgid " (requires catalyst)"
+msgstr "（需要催化剂）"
+
+#: .\teleport.lua
+msgid "The Labs Catalyst crumbles to dust as dimensional barriers part..."
+msgstr "实验室催化剂随着维度屏障的开启而化为尘埃……"
+
+#: .\teleport.lua
+#, c-format
+msgid "Initiating %s to %s..."
+msgstr "正在启动从%s到%s的跃迁……"
+
+#: .\teleport.lua
+msgid "Searching for suitable location..."
+msgstr "正在搜寻合适的位置……"
+
+#: .\teleport.lua
+#, c-format
+msgid "Your scouting reveals a %dx%d area around the landing zone."
+msgstr "你的侦察揭示了着陆区周围%dx%d的区域。"
+
+#: .\teleport.lua
+#, c-format
+msgid "You arrive at the %s!"
+msgstr "你抵达了 %s！"
+
+#: .\teleport.lua
+msgid ""
+"Find the red room exit portal to return home before warp sickness kills you."
+msgstr "找到红色房间的出口传送门，在跃迁病杀死你之前返回家园。"
+
+#: .\teleport.lua
+msgid "You are already home!"
+msgstr "你已经在家里了！"
+
+#: .\teleport.lua
+msgid "ERROR: Home location not set!"
+msgstr "错误：家园位置未设置！"
+
+#: .\teleport.lua
+msgid "Return home?"
+msgstr "返回家园？"
+
+#: .\teleport.lua
+msgid "Yes, return home"
+msgstr "是的，返回家园"
+
+#: .\teleport.lua
+msgid "No, stay"
+msgstr "不，留下"
+
+#: .\teleport.lua
+msgid "Only items you carry will return with you."
+msgstr "只有你携带的物品会随你返回。"
+
+#: .\teleport.lua
+msgid "Without a Vortex Token, only items you carry will return with you."
+msgstr "没有漩涡令牌，只有你携带的物品会随你返回。"
+
+#: .\teleport.lua
+msgid ""
+"The Vortex Token crumbles as it pulls the room's contents into the warp!"
+msgstr "漩涡令牌在将房间内容物拖入跃迁时碎裂了！"
+
+#: .\teleport.lua
+#, c-format
+msgid "You've returned home safely! Earned %d material tokens."
+msgstr "你已安全返回家园！获得了 %d 枚材料令牌。"
+
+#: .\teleport.lua
+msgid "=== RANK UP ==="
+msgstr "=== 等级提升 ==="
+
+#: .\teleport.lua
+msgid "You have survived 20 expeditions and achieved Master rank!"
+msgstr "你已成功完成 20 次远征，达到了大师等级！"
+
+#: .\teleport.lua
+msgid "New features and recipes may now be available."
+msgstr "现在可能解锁了新功能和配方。"
+
+#: .\teleport.lua
+msgid "You have survived 10 expeditions and achieved Adept rank!"
+msgstr "你已成功完成 10 次远征，达到了专家等级！"
+
+#: .\teleport.lua
+#, c-format
+msgid "Stats: %d/%d raids completed successfully"
+msgstr "统计：成功完成 %d/%d 次突袭"
+
+#: .\teleport.lua
+msgid "Your belongings scatter as reality tears you away..."
+msgstr "现实将你撕裂，你的物品散落各处……"
+
+#: .\teleport.lua
+#, c-format
+msgid "%d warped animal%s lost in the void..."
+msgstr "%d 只扭曲动物%s消失在虚空之中……"
+
+#: .\teleport.lua
+msgid "You respawn at home, naked and wounded!"
+msgstr "你在家园重生，赤身裸体且身负重伤！"
+
+#: .\terrain.json
+msgid "open air"
+msgstr "露天"
+
+#. ~ Description for open air
+#: .\terrain.json
+msgid ""
+"This is the edge of the island. A metaphysical border stops you from going "
+"over the edge yourself, but anything you drop here will be gone forever."
+msgstr "这里是岛屿的边缘。一道形而上学的边界阻止你亲自越过边缘，但任何你在此处丢弃的物品都将永远消失。"
+
+#: .\terrain.json
+msgid "warped rock"
+msgstr "扭曲岩石"
+
+#. ~ Description for warped rock
+#: .\terrain.json
+msgid ""
+"A sparkly-black stone that's glassy smooth to the touch. Seems "
+"indestructible by normal means."
+msgstr "一种闪亮的黑色石头，触感如玻璃般光滑。似乎无法用常规手段破坏。"
+
+#: .\upgrades.lua
+msgid ""
+"Your resistance to the chaos of the warpstream increases. In every future "
+"expedition, you will be able to endure an additional warp pulse and stay "
+"earthside longer. (9 pulses)"
+msgstr "你对扭曲流混沌的抗性提升了。在未来的每次远征中，你将能额外承受一次扭曲脉冲，并在地面停留更长时间。（9次脉冲）"
+
+#: .\upgrades.lua
+msgid ""
+"Your resistance to the chaos of the warpstream increases. In every future "
+"expedition, you will be able to endure an additional warp pulse and stay "
+"earthside longer. (10 pulses)"
+msgstr "你对扭曲流混沌的抗性提升了。在未来的每次远征中，你将能额外承受一次扭曲脉冲，并在地面停留更长时间。（10次脉冲）"
+
+#: .\upgrades.lua
+msgid ""
+"Your resistance to the chaos of the warpstream increases. In every future "
+"expedition, you will be able to endure an additional warp pulse and stay "
+"earthside longer. (11 pulses)"
+msgstr "你对扭曲流混沌的抗性提升了。在未来的每次远征中，你将能额外承受一次扭曲脉冲，并在地面停留更长时间。（11次脉冲）"
+
+#: .\upgrades.lua
+msgid ""
+"Your vision expands. A 3x3 area around your landing zone will be revealed on"
+" future expeditions."
+msgstr "你的视野扩大了。未来远征中，你着陆点周围3x3的区域将被揭示。"
+
+#: .\upgrades.lua
+msgid ""
+"Your foresight sharpens. A 5x5 area around your landing zone will be "
+"revealed on future expeditions."
+msgstr "你的预见力增强了。未来远征中，你着陆点周围5x5的区域将被揭示。"
+
+#: .\upgrades.lua
+msgid ""
+"The paths multiply. Two return obelisks will now spawn per expedition, "
+"giving you more options to escape."
+msgstr "路径增多了。现在每次远征将生成两座返回方尖碑，为你提供更多逃离选项。"
+
+#: .\upgrades.lua
+msgid ""
+"Large Expeditions are now available at the warp obelisk. You will have "
+"double the grace period before warp sickness sets in."
+msgstr "大型远征现已在扭曲方尖碑处可用。扭曲病发作前的宽限期将延长一倍。"
+
+#: .\upgrades.lua
+msgid ""
+"Extended Expeditions are now available. You will have triple the grace "
+"period for maximum exploration time."
+msgstr "延长远征现已可用。你将拥有三倍的宽限期，以获得最大探索时间。"
+
+#: .\upgrades.lua
+msgid ""
+"Basement starts are now available at the warp obelisk. You can choose to "
+"begin expeditions in underground basements."
+msgstr "地下室起点现已在扭曲方尖碑处可用。你可以选择在地下室开始远征。"
+
+#: .\upgrades.lua
+msgid ""
+"Rooftop starts are now available at the warp obelisk. You can choose to "
+"begin expeditions on building rooftops."
+msgstr "屋顶起点现已在扭曲方尖碑处可用。你可以选择在建筑屋顶开始远征。"
+
+#: .\upgrades.lua
+msgid ""
+"Lab starts are now available at the warp obelisk. You can choose to begin "
+"expeditions in underground science labs. Be warned: you will need a Labs "
+"Catalyst each time, and you will start sealed inside!"
+msgstr "实验室起点现已在扭曲方尖碑处可用。你可以选择在地下科学实验室开始远征。请注意：每次都需要一个实验室催化剂，并且你将从被密封的内部开始！"
+
+#: .\upgrades.lua
+msgid ""
+"Scouting Clairvoyance I unlocked. You will see everything near you for 20 "
+"seconds when beginning an expedition."
+msgstr "侦察千里眼I已解锁。开始远征时，你将看到周围的一切，持续20秒。"
+
+#: .\upgrades.lua
+msgid ""
+"Scouting Clairvoyance II unlocked. You will see everything near you for 60 "
+"seconds when beginning an expedition."
+msgstr "侦察千里眼II已解锁。开始远征时，你将看到周围的一切，持续60秒。"
+
+#: .\upgrades.lua
+msgid ""
+"Expedition Missions unlocked. Every expedition now offers 1 randomly "
+"assigned bonus mission, which rewards warp shards on completion."
+msgstr "远征任务已解锁。每次远征现在提供1个随机分配的额外任务，完成时可获得扭曲碎片奖励。"
+
+#: .\upgrades.lua
+msgid ""
+"Two Missions unlocked. Every expedition now offers 2 randomly assigned bonus"
+" missions."
+msgstr "双重任务已解锁。每次远征现在提供2个随机分配的额外任务。"
+
+#: .\upgrades.lua
+msgid ""
+"Three Missions unlocked. Every expedition now offers 3 randomly assigned "
+"bonus missions."
+msgstr "三重任务已解锁。每次远征现在提供3个随机分配的额外任务。"
+
+#: .\upgrades.lua
+msgid ""
+"Four Missions unlocked. Every expedition now offers 4 randomly assigned "
+"bonus missions."
+msgstr "四重任务已解锁。每次远征现在提供4个随机分配的额外任务。"
+
+#: .\upgrades.lua
+msgid ""
+"Five Missions unlocked. Every expedition now offers 5 randomly assigned "
+"bonus missions."
+msgstr "五个任务已解锁。现在每次远征都会提供5个随机分配的奖励任务。"
+
+#: .\upgrades.lua
+msgid ""
+"Harder Missions unlocked. More challenging bonus missions with greater "
+"rewards are now available."
+msgstr "困难任务已解锁。现在可进行更具挑战性且奖励更丰厚的奖励任务。"
+
+#: .\upgrades.lua
+msgid ""
+"Hardest Missions unlocked. The most dangerous bonus missions with the "
+"greatest rewards are now available."
+msgstr "极难任务已解锁。现在可进行最危险且奖励最丰厚的奖励任务。"
+
+#: .\upgrades.lua
+msgid ""
+"Slaughter Missions unlocked. You will now receive a slaughter mission during"
+" each expedition, rewarding warp shards for killing specific types of "
+"enemies."
+msgstr "屠杀任务已解锁。现在每次远征期间你将收到一个屠杀任务，通过击杀特定类型的敌人来奖励跃迁碎片。"
+
+#: .\upgrades.lua
+msgid ""
+"Landing Flight unlocked. While under the warpcloak effect on landing, you "
+"gain the power of flight for 60 seconds."
+msgstr "着陆飞行已解锁。在着陆时处于跃迁斗篷效果下，你将获得60秒的飞行能力。"
+
+#: .\upgrades.lua
+msgid ""
+"Your determination is proven! You have achieved the rank of Adept. Rank "
+"challenge complete!"
+msgstr "你的决心已得到证明！你已获得专家等级。等级挑战完成！"
+
+#: .\upgrades.lua
+msgid ""
+"Your mastery is proven! You have achieved the highest rank. Rank challenge "
+"complete!"
+msgstr "你的精通已得到证明！你已获得最高等级。等级挑战完成！"
+
+#: .\upgrades.lua
+msgid "ERROR: Unknown upgrade key: "
+msgstr "错误：未知升级键："
+
+#: .\upgrades.lua
+msgid "You have already unlocked this upgrade."
+msgstr "你已解锁此升级。"
+
+#: .\upgrades.lua
+msgid "=== UPGRADE UNLOCKED ==="
+msgstr "=== 升级已解锁 ==="
+
+#: .\upgrades.lua
+msgid "You must unlock the previous tier of this upgrade first."
+msgstr "你必须先解锁此升级的前一级。"
+
+#: .\upgrades.lua
+msgid "You need at least 10 successful expeditions to use this."
+msgstr "你需要至少10次成功的远征才能使用此功能。"
+
+#: .\upgrades.lua
+msgid "You need at least 20 successful expeditions to use this."
+msgstr "你需要至少20次成功的远征才能使用此功能。"
+
+#: .\vehicles.json
+msgid "warp raft"
+msgstr "跃迁木筏"
+
+#: .\warp_sickness.lua
+msgid ""
+"<color_light_red>[Warp Pulse] WARNING: This is your last safe pulse! The "
+"next pulse will begin warp sickness.</color>"
+msgstr "<color_light_red>[跃迁脉冲] 警告：这是你最后一次安全脉冲！下一次脉冲将开始跃迁病。</color>"
+
+#: .\warp_sickness.lua
+msgid "[Press any key to continue]"
+msgstr "[按任意键继续]"
+
+#: .\warp_sickness.lua
+msgid ""
+"The next pulse will begin warp sickness.\n"
+"\n"
+msgstr ""
+"下一次脉冲将开始跃迁病。\n"
+"\n"
+
+#: .\warp_sickness.lua
+msgid "WARNING: This is your last safe pulse!\n"
+msgstr "警告：这是你最后一次安全脉冲！\n"
+
+#: .\warp_sickness.lua
+msgid ""
+"=== WARP PULSE ===\n"
+"\n"
+msgstr ""
+"=== 跃迁脉冲 ===\n"
+"\n"
+
+#: .\warp_sickness.lua
+#, c-format
+msgid ""
+"<color_yellow>[Warp Pulse] The warp begins to tug at you... Safe pulses "
+"remaining: %d (~%d min).</color>"
+msgstr "<color_yellow>[跃迁脉冲] 跃迁开始拉扯你... 剩余安全脉冲：%d（约%d分钟）。</color>"
+
+#: .\warp_sickness.lua
+#, c-format
+msgid ""
+"Time until sickness: ~%d minutes\n"
+"\n"
+msgstr ""
+"距离患病时间：约%d分钟\n"
+"\n"
+
+#: .\warp_sickness.lua
+msgid ""
+"The warp begins to tug at you...\n"
+"\n"
+msgstr ""
+"跃迁能量开始拉扯你的身体...\n"
+"\n"
+
+#: .\warp_sickness.lua
+#, c-format
+msgid ""
+"[Warp Pulse] You feel a faint tingling of warp energy. Safe pulses "
+"remaining: %d (~%d min)."
+msgstr "[跃迁脉冲] 你感到微弱的跃迁能量刺痛感。剩余安全脉冲次数：%d（约%d分钟）。"
+
+#: .\warp_sickness.lua
+msgid ""
+"You feel a faint tingling of warp energy.\n"
+"\n"
+msgstr ""
+"你感到微弱的跃迁能量刺痛感。\n"
+"\n"
+
+#: .\warp_sickness.lua
+#, c-format
+msgid ""
+"<color_light_red>[Warp Pulse] STATUS: %s (%d/6). -%d stats. %d pulses to "
+"disintegration.</color>"
+msgstr "<color_light_red>[跃迁脉冲] 状态：%s（%d/6）。属性-%d。距离瓦解还有%d次脉冲。</color>"
+
+#: .\warp_sickness.lua
+msgid ""
+"Consider returning home soon.\n"
+"\n"
+msgstr ""
+"请考虑尽快返回家园。\n"
+"\n"
+
+#: .\warp_sickness.lua
+#, c-format
+msgid ""
+"Pulses until disintegration: %d\n"
+"\n"
+msgstr "距离崩解剩余脉冲：%d"
+
+#: .\warp_sickness.lua
+#, c-format
+msgid "Stats: -%d to all\n"
+msgstr "属性：全属性-%d\n"
+
+#: .\warp_sickness.lua
+msgid "The warp sickness grows stronger.\n"
+msgstr "跃迁病症状加剧。\n"
+
+#: .\warp_sickness.lua
+#, c-format
+msgid ""
+"STATUS: %s (Intensity %d/6)\n"
+"\n"
+msgstr ""
+"状态：%s（强度%d/6）\n"
+"\n"
+
+#: .\warp_sickness.lua
+#, c-format
+msgid ""
+"<color_red>[Warp Pulse] %s (%d/6). -%d stats. %d pulses to "
+"disintegration!</color>"
+msgstr "<color_red>[跃迁脉冲] %s（%d/6）。属性-%d。距离瓦解还有%d次脉冲！</color>"
+
+#: .\warp_sickness.lua
+msgid ""
+"You MUST return home soon!\n"
+"\n"
+msgstr ""
+"你必须尽快返回家园！\n"
+"\n"
+
+#: .\warp_sickness.lua
+msgid "Your body is failing!\n"
+msgstr "你的身体正在衰竭！\n"
+
+#: .\warp_sickness.lua
+msgid ""
+"<color_red>[Warp Pulse] !!! WARP DISINTEGRATION !!! You are being "
+"unmade!</color>"
+msgstr "<color_red>[跃迁脉冲] !!! 跃迁瓦解 !!! 你正在被分解！</color>"
+
+#: .\warp_sickness.lua
+msgid ""
+"GET TO THE EXIT IMMEDIATELY!\n"
+"\n"
+msgstr ""
+"立即前往出口！\n"
+"\n"
+
+#: .\warp_sickness.lua
+msgid "Your body is coming apart at the seams!\n"
+msgstr "你的身体正在从接缝处崩解！\n"
+
+#: .\warp_sickness.lua
+msgid "Your skin tears like tissue paper with every movement.\n"
+msgstr "每次移动，你的皮肤都像薄纸一样撕裂。\n"
+
+#: .\warp_sickness.lua
+msgid ""
+"!!! WARP DISINTEGRATION !!!\n"
+"\n"
+msgstr ""
+"!!! 跃迁瓦解 !!!\n"
+"\n"
