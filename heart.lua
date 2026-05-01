@@ -495,21 +495,49 @@ local function run_construction_mission(player, mission_id)
   end
 end
 
--- Hardcoded coordinates for sky island core terrain changes
--- These are based on the sky_island_core mapgen layout and avoid
--- using mapgen updates on the surface (which can fail with vehicles)
-local ISLAND_COORDS = {
-  stairs_down = { x = 60, y = 69, z = 8 },
-  skylight = { x = 60, y = 56, z = 8 }
+-- Surface features are anchored to the home overmap tile, then offset within
+-- the heart anchor so they land in the intended spots even if the local map
+-- origin changes.
+local SURFACE_FEATURE_OFFSETS = {
+  stairs_down = { x = 0, y = -2 },
+  skylight = { x = 0, y = -15 }
 }
 
-local function to_tripoint(coord)
-	return Tripoint.new(coord.x, coord.y, coord.z)
+local function get_surface_feature_pos(storage, feature_id)
+  if not storage or not storage.heart_anchor then
+    gapi.add_msg(locale.gettext("ERROR: Heart anchor not set for island construction"))
+    return nil
+  end
+
+  local offset = SURFACE_FEATURE_OFFSETS[feature_id]
+  if not offset then
+    gapi.add_msg(locale.gettext("ERROR: Unknown surface feature: ") .. tostring(feature_id))
+    return nil
+  end
+
+  local map = gapi.get_map()
+  if not map then
+    gapi.add_msg(locale.gettext("ERROR: Could not get map"))
+    return nil
+  end
+
+  local heart_anchor_abs_ms = Tripoint.new(
+    storage.heart_anchor.x,
+    storage.heart_anchor.y,
+    storage.heart_anchor.z
+  )
+  local heart_anchor_local_ms = map:get_local_ms(heart_anchor_abs_ms)
+
+  return Tripoint.new(
+    heart_anchor_local_ms.x + offset.x,
+    heart_anchor_local_ms.y + offset.y,
+    heart_anchor_local_ms.z
+  )
 end
 
 -- Helper: Set terrain at a specific local coordinate
 -- Uses absolute world coordinates based on player's current overmap tile
-local function set_terrain_at_local_pos(coord, terrain_id)
+local function set_terrain_at_local_pos(pos, terrain_id)
   local map = gapi.get_map()
   if not map then
     gapi.add_msg(locale.gettext("ERROR: Could not get map"))
@@ -523,9 +551,6 @@ local function set_terrain_at_local_pos(coord, terrain_id)
     return false
   end
   local ter_int = ter_str:int_id()
-
-  -- Create the tripoint at the specified local coordinates
-  local pos = to_tripoint(coord)
 
   -- Set the terrain
   local current_ter = map:get_ter_at(pos)
@@ -614,7 +639,10 @@ local function show_construction_menu(player, storage)
     gapi.add_msg(locale.gettext("Construction beginning... The island trembles as new spaces form."))
 
     -- Set stairs down on surface via Lua (avoids mapgen update issues with vehicles)
-    set_terrain_at_local_pos(ISLAND_COORDS.stairs_down, "t_stairs_down")
+    local stairs_down_pos = get_surface_feature_pos(storage, "stairs_down")
+    if stairs_down_pos then
+      set_terrain_at_local_pos(stairs_down_pos, "t_stairs_down")
+    end
 
     -- Run the mission to create the basement room
     if run_construction_mission(player, "MISSION_SKYISLAND_BUILD_BASEMENT") then
@@ -635,7 +663,10 @@ local function show_construction_menu(player, storage)
     gapi.add_msg(locale.gettext("Expanding the basement..."))
 
     -- Set skylight on surface via Lua (avoids mapgen update issues with vehicles)
-    set_terrain_at_local_pos(ISLAND_COORDS.skylight, "t_glass_roof")
+    local skylight_pos = get_surface_feature_pos(storage, "skylight")
+    if skylight_pos then
+      set_terrain_at_local_pos(skylight_pos, "t_glass_roof")
+    end
 
     -- Run the mission to expand the basement
     if run_construction_mission(player, "MISSION_SKYISLAND_BUILD_BIGROOM1") then

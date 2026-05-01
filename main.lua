@@ -30,6 +30,49 @@ storage.difficulty_pulse_interval = storage.difficulty_pulse_interval or "normal
 storage.difficulty_return_behavior = storage.difficulty_return_behavior or 1
 storage.difficulty_emergency_return = storage.difficulty_emergency_return or 2  -- Default: craft cost
 
+local HEART_FURN_ID = FurnId.new("f_skyisland_heart")
+
+local function initialize_heart_anchor()
+  local player = gapi.get_avatar()
+  local map = gapi.get_map()
+  if not player or not map then
+    util.debug_log("Sky Islands: unable to initialize heart anchor (missing player or map)")
+    return false
+  end
+
+  local player_pos = player:get_pos_ms()
+
+  for radius = 0, 30 do
+    for dx = -radius, radius do
+      for dy = -radius, radius do
+        if radius == 0 or math.abs(dx) == radius or math.abs(dy) == radius then
+          local check_pos = Tripoint.new(player_pos.x + dx, player_pos.y + dy, player_pos.z)
+          local furn = map:get_furn_at(check_pos)
+
+          if furn == HEART_FURN_ID:int_id() then
+            local heart_abs_ms = map:get_abs_ms(check_pos)
+            storage.heart_anchor = {
+              x = heart_abs_ms.x,
+              y = heart_abs_ms.y,
+              z = heart_abs_ms.z
+            }
+            util.debug_log(string.format(
+              "Sky Islands: heart anchor initialized at abs_ms (%d, %d, %d)",
+              heart_abs_ms.x,
+              heart_abs_ms.y,
+              heart_abs_ms.z
+            ))
+            return true
+          end
+        end
+      end
+    end
+  end
+
+  util.debug_log("Sky Islands: failed to find Heart of the Island for heart anchor initialization")
+  return false
+end
+
 -- Use warp obelisk - start expedition
 mod.use_warp_obelisk = function(who, item, pos)
   return teleport.use_warp_obelisk(who, item, pos, storage, missions, warp_sickness)
@@ -457,6 +500,7 @@ end
 mod.on_game_started = function()
   -- Reset to defaults for new game
   storage.home_location = nil
+  storage.heart_anchor = nil
   storage.is_away_from_home = false
   storage.warp_pulse_count = 0
   storage.warp_pulse_accumulated = 0
@@ -466,6 +510,8 @@ mod.on_game_started = function()
 
   -- Register the global warp sickness hook (runs every minute, checks conditions)
   warp_sickness.register_global_hook(storage)
+
+  initialize_heart_anchor()
 
   util.debug_log("Sky Islands: New game started")
   gapi.add_msg(locale.gettext("Sky Islands PoC loaded! Use warp remote to start."))
@@ -479,6 +525,10 @@ mod.on_game_load = function()
 
   -- Register the global warp sickness hook (runs every minute, checks conditions)
   warp_sickness.register_global_hook(storage)
+
+  if not storage.heart_anchor then
+    initialize_heart_anchor()
+  end
 
   if storage.is_away_from_home then
     gapi.add_msg(locale.gettext("Resuming expedition..."))
